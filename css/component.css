@@ -1,0 +1,599 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Windows Chrome ugly fix http://stackoverflow.com/questions/13674808/chrome-svg-font-rendering-breaks-layout/14345363#14345363 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'icomoon';
+		src: url('../fonts/icomoon.svg#icomoon') format('svg');
+	};
+}
+
+.icon-team, .icon-blog, .icon-home, .icon-portfolio, .icon-services, .icon-contact, .icon-menu {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon-team:before {
+	content: "\e000";
+}
+
+.icon-blog:before {
+	content: "\e001";
+}
+
+.icon-home:before {
+	content: "\e002";
+}
+
+.icon-portfolio:before {
+	content: "\e003";
+}
+
+.icon-services:before {
+	content: "\e004";
+}
+
+.icon-contact:before {
+	content: "\e005";
+}
+
+.icon-menu:before {
+	content: "\f0c9";
+}
+
+a, li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Global CSS that are applied for all screen sizes */
+
+.nav ul {
+	max-width: 1240px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: .7em;
+	font-weight: 300;
+}
+
+.nav li span {
+	display: block;
+}
+
+.nav a {
+	display: block;
+	color: rgba(249, 249, 249, .9);
+	text-decoration: none;
+	-webkit-transition: color .5s, background .5s, height .5s;
+	-moz-transition: color .5s, background .5s, height .5s;
+	-o-transition: color .5s, background .5s, height .5s;
+	-ms-transition: color .5s, background .5s, height .5s;
+	transition: color .5s, background .5s, height .5s;
+}
+
+.nav i{
+	/* Make the font smoother for Chrome */
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* Remove the blue Webkit background when element is tapped */
+
+a, button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Hover effect for the whole navigation to make the hovered item stand out */
+
+.no-touch .nav ul:hover a {
+	color: rgba(249, 249, 249, .5);
+}
+
+.no-touch .nav ul:hover a:hover {
+	color: rgba(249, 249, 249, 0.99);
+}
+
+/* Adding some background color to the different menu items */
+
+.nav li.wp-grey {background: #464646;}
+
+.nav li.wp-orange {background: #D54E21;}
+
+.nav li.wp-light-blue {background: #65ACC3;}
+
+.nav li.wp-blue {background: #21759B;}
+
+
+/********************************************/
+/* For screen bigger than 800px wphierarchy */
+/********************************************/
+
+@media (min-width: 50em) {
+
+.nav {float:left;
+	margin: 14px;
+	z-index: 100;
+	position: relative;
+}
+
+	/* Transforms the list into columns on larger screens */
+	.nav li {
+		word-wrap: break-word;
+		position: relative;
+		width: 100%;
+		height: 64px;
+		text-align: center;
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+		border-radius: 4px;
+		margin-bottom: 8px;
+	}
+
+.nav li a:before {font-family: 'Genericons';
+	content: '\f428';
+	color: #C8C7C6;
+	font-size: 4em;
+	float:left;
+	margin-left: -21px;
+	margin-top:10px;
+	margin-right:-28px;
+	
+}
+
+/* special nth-child styles for each wphierarchy column li */
+
+/* col1 styles */
+
+.col1 {width:64px;}
+
+.col1 li a:before {display: none;} /*hides circles on first column*/
+
+.col1 ul li:nth-child(1) {height: 480px;}
+
+.col1 ul li:nth-child(2) {height: 298px;}
+
+.col1 ul li:nth-child(3) {height: 80px;
+}
+
+/*col2 styles*/
+
+.col2 ul li:nth-child(1) {height: 210px;
+	margin-top: 488px;
+}
+
+.col2 ul li:nth-child(2), .col2 ul li:nth-child(3) {height: 80px;
+}
+/*col3 styles*/
+
+.col3 ul li:nth-child(5) {height: 121px;
+}
+
+.col3 ul li:nth-child(10) {height: 80px;
+}
+
+.col3 ul li:nth-child(11) .icon, .col3 ul li:nth-child(12) .icon {float:left;
+	margin-left:8px;
+}
+
+.col3 ul li:nth-child(11), .col3 ul li:nth-child(12)  {
+	height: 35px;
+}
+
+.col3 ul li:nth-child(11) .hierarchy-name, .col3 ul li:nth-child(12) .hierarchy-name {
+	padding-top:10px;
+}
+
+.col3 li:nth-child(11) a:before, .col3 li:nth-child(12) a:before {margin-top:-2px;}
+
+/*col4 styles and small button wherever needed*/
+.col4 ul li:nth-child(3) {margin-top: 80px;}
+
+
+/*decrease the height to make the smallest button*/
+
+.col4 ul li:nth-child(4),.col4 ul li:nth-child(5), .col4 ul li:nth-child(6), .col4 ul li:nth-child(9), .col4 ul li:nth-child(10), .col5 ul li:nth-child(6), .col6 ul li:nth-child(2), .col7 ul li:nth-child(10)  {
+	height: 35px;
+}
+
+/*move the icon to the left on the smallest button*/
+
+.col4 ul li:nth-child(4) .icon,.col4 ul li:nth-child(5) .icon, .col4 ul li:nth-child(6) .icon, .col4 ul li:nth-child(9) .icon, .col4 ul li:nth-child(10) .icon, .col5 ul li:nth-child(6) .icon, .col6 ul li:nth-child(2) .icon, .col7 ul li:nth-child(10) .icon {
+	float:left;
+	margin-left:8px;
+}
+
+/*hierarchy label padding for smallest button*/
+
+.col4 ul li:nth-child(4) .hierarchy-name,.col4 ul li:nth-child(5) .hierarchy-name, .col4 ul li:nth-child(6) .hierarchy-name, .col4 ul li:nth-child(9) .hierarchy-name, .col4 ul li:nth-child(10) .hierarchy-name, .col5 ul li:nth-child(6) .hierarchy-name, .col6 ul li:nth-child(2) .hierarchy-name, .col7 ul li:nth-child(10) .hierarchy-name {
+	padding-top:10px;
+}
+
+/*fix the dot on smallest button*/
+
+.col4 li:nth-child(4) a:before, .col4 li:nth-child(5) a:before, .col4 li:nth-child(6) a:before, .col4 li:nth-child(9) a:before, .col4 li:nth-child(10) a:before, .col5 li:nth-child(6) a:before, .col6 li:nth-child(2) a:before, .col7 li:nth-child(10) a:before {margin-top:-2px;}
+
+.col4 li:nth-child(9) {margin-top: 152px;}
+
+/*col5 styles*/
+
+.col5 ul li:nth-child(3) {margin-top: 80px;}
+
+.col5 ul li:nth-child(4) {margin-top: 137px;}
+
+.col5 ul li:nth-child(6)  {margin-top: 152px;}
+
+/*col6 styles*/
+
+.col6 ul li:nth-child(1)  {margin-top: 488px;}
+
+.col6 ul li:nth-child(2)  {margin-top: 196px;}
+
+/*col7 styles*/
+
+.col7 ul li:nth-child(5) {height: 121px;
+}
+
+.col7 ul li:nth-child(10) {margin-top: 51px;
+}
+
+/*col8 styles*/
+
+.col8 ul li:nth-child(1) {height: 480px;
+}
+
+.col8 ul li:nth-child(2) {height: 210px;
+}
+
+.col8 ul li:nth-child(3) {height: 80px;
+}
+
+.col8 ul li:nth-child(4) {height: 152px;
+}
+
+/*col9 styles*/
+
+
+/*col10 styles*/
+
+.col10 li {height: 1160px;
+	width: 64px;
+}
+
+/*end column styles*/
+
+
+
+
+	.nav a {
+		display: block;
+		width: auto;
+	}
+
+
+
+	/* Placing the icon */
+	
+	.icon {
+		padding-top: .1em;
+	}
+
+	.icon + span {
+		margin-top: 0;
+		-webkit-transition: margin .5s;
+		-moz-transition: margin .5s;
+		-o-transition: margin .5s;
+		-ms-transition: margin .5s;
+		transition: margin .5s;
+	}
+
+	/* Animating the height of the element*/
+	.nav a {
+		height: 9em;
+	}
+
+	.no-touch .nav a:hover ,
+	.nav a:active ,
+	.nav a:focus {
+		height: 10em;
+	}	
+
+	/* Making the text follow the height animation */
+	.no-touch .nav a:hover .icon + span {
+		-webkit-transition: margin .5s;
+		-moz-transition: margin .5s;
+		-o-transition: margin .5s;
+		-ms-transition: margin .5s;
+		transition: margin .5s;
+	}
+
+	/* Positioning the icons and preparing for the animation*/
+	.nav i {
+		position: relative;
+		display: inline-block;
+		margin: 0 auto;
+		padding: 0.4em;
+		border-radius: 50%;
+		font-size: 1.8em;
+		box-shadow: 0 0 0 30px transparent;
+		background: rgba(255,255,255,0.1);
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		-webkit-transition: box-shadow .6s ease-in-out;
+		-moz-transition: box-shadow .6s ease-in-out;
+		-o-transition: box-shadow .6s ease-in-out;
+		-ms-transition: box-shadow .6s ease-in-out;
+		transition: box-shadow .6s ease-in-out;
+	}	
+	
+	/* Animate the box-shadow to create the effect */
+	.no-touch .nav a:hover i,
+	.no-touch .nav a:active i,
+	.no-touch .nav a:focus i {		
+		box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+		-webkit-transition: box-shadow .4s ease-in-out;
+		-moz-transition: box-shadow .4s ease-in-out;
+		-o-transition: box-shadow .4s ease-in-out;
+		-ms-transition: box-shadow .4s ease-in-out;
+		transition: box-shadow .4s ease-in-out;
+	}
+		
+}
+
+@media (min-width: 50em) and (max-width: 61.250em) {
+
+	/* Size and font adjustments to make it fit into the screen*/
+	.nav ul {
+		font-size: 1.2em;
+	}
+
+}
+
+/* The "tablet" and "mobile" version */
+
+@media (max-width: 49.938em) {		
+	
+	/* Instead of adding a border, we transition the background color */
+	.no-touch .nav ul li:nth-child(6n+1) a:hover,
+	.no-touch .nav ul li:nth-child(6n+1) a:active,
+	.no-touch .nav ul li:nth-child(6n+1) a:focus {
+		background: rgb(227, 119, 20);
+	}
+
+	.no-touch .nav li:nth-child(6n+2) a:hover,
+	.no-touch .nav li:nth-child(6n+2) a:active,
+	.no-touch .nav li:nth-child(6n+2) a:focus {
+		background: rgb(245, 160, 41);
+	}
+
+	.no-touch .nav li:nth-child(6n+3) a:hover,
+	.no-touch .nav li:nth-child(6n+3) a:active,
+	.no-touch .nav li:nth-child(6n+3) a:focus {
+		background: rgb(44, 168, 219);
+	}
+
+	.no-touch .nav li:nth-child(6n+4) a:hover,
+	.no-touch .nav li:nth-child(6n+4) a:active,
+	.no-touch .nav li:nth-child(6n+4) a:focus {
+		background: rgb(31, 120, 176);
+	}
+
+	.no-touch .nav li:nth-child(6n+5) a:hover,
+	.no-touch .nav li:nth-child(6n+5) a:active,
+	.no-touch .nav li:nth-child(6n+5) a:focus {
+		background: rgb(39, 70, 90);
+	}
+
+	.no-touch .nav li:nth-child(6n+6) a:hover,
+	.no-touch .nav li:nth-child(6n+6) a:active,
+	.no-touch .nav li:nth-child(6n+6) a:focus {
+		background: rgb(32, 54, 68);
+	}
+
+	.nav ul li {
+		-webkit-transition: background 0.5s;
+		-moz-transition: background 0.5s;
+		-o-transition: background 0.5s;
+		-ms-transition: background 0.5s;
+		transition: background 0.5s;
+	}	
+
+}
+
+/* CSS specific to the 2x3 columns version */
+@media (min-width:32.5em) and (max-width: 49.938em) {
+	
+	/* Creating the 2 column layout using floating elements once again */
+	.nav li {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	
+	/* Adding some padding to make the elements look nicer*/
+	.nav a {
+		padding: 0.8em;		
+	}
+
+	/* Displaying the icons on the left, and the text on the right side using inlin-block*/
+	.nav li span, 
+	.nav li span.icon {
+		display: inline-block;
+	}
+
+	.nav li span.icon {
+		width: 50%;
+	}
+
+	.nav li .icon + span {
+		font-size: 1em;
+	}
+
+	.icon + span {
+		position: relative;
+		top: -0.2em;
+	}
+
+	/* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
+	.nav li i {
+		display: inline-block;
+		padding: 8% 9%;
+		border: 4px solid transparent;
+		border-radius: 50%;
+		font-size: 1.5em;
+		background: rgba(255,255,255,0.1);
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+	}
+
+	/* Transition effect on the border color */
+	.no-touch .nav li:hover i,
+	.no-touch .nav li:active i,
+	.no-touch .nav li:focus i {
+		border: 4px solid rgba(255,255,255,0.1);
+	}
+	
+}
+
+/* Adapting the font size and width for smaller screns*/
+@media (min-width: 32.5em) and (max-width: 38.688em) {
+	
+	.nav li span.icon {
+		width: 50%;
+	}
+
+	.nav li .icon + span {
+		font-size: 0.9em;
+	}
+}
+
+/* Styling the toggle menu link and hiding it */
+.nav .navtoogle{
+	display: none;	
+	width: 100%;
+	padding: 0.5em 0.5em 0.8em;
+	font-family: 'Lato',Calibri,Arial,sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: rgb(7, 16, 15);
+	font-size: 1.2em;
+	background: none;	
+	border: none;
+	border-bottom: 4px solid rgb(221, 221, 221);
+	cursor: pointer;
+}
+
+.icon-menu {
+	position: relative;
+	top: 3px;
+	line-height: 0;
+	font-size: 1.6em;
+}
+
+@media (max-width: 32.438em) {
+
+	/* Unhiding the styled menu link */
+	.nav .navtoogle{
+		margin: 0;
+		display: block;
+	}
+	
+	/* Animating the height of the navigation when the button is clicked */
+	
+	/* When JavaScript is disabled, we hide the menu */
+	.no-js .nav ul {
+		max-height: 30em;
+		overflow: hidden;
+	}
+	
+	/* When JavaScript is enabled, we hide the menu */
+	.js .nav ul {
+		max-height: 0em;
+		overflow: hidden;
+	}
+	
+	/* Displaying the menu when the user has clicked on the button*/
+	.js .nav .active + ul {		
+		max-height: 30em;
+		overflow: hidden;
+		-webkit-transition: max-height .4s;
+		-moz-transition: max-height .4s;
+		-o-transition: max-height .4s;
+		-ms-transition: max-height .4s;
+		transition: max-height .4s;
+	}
+
+	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+	
+	.nav li span {
+		display: inline-block;
+		height: 100%;
+	}
+
+	.nav a {
+		padding: 0.5em;		
+	}
+	
+	.icon + span {
+		margin-left: 1em;
+		font-size: 0.8em;
+	}
+	
+	/* Adding a left border of 8 px with a different color for each menu item*/
+	.nav li:nth-child(6n+1) {
+		border-left: 8px solid rgb(174, 78, 1);
+	}
+
+	.nav li:nth-child(6n+2) {
+		border-left: 8px solid rgb(191, 117, 20);
+	}
+
+	.nav li:nth-child(6n+3) {
+		border-left: 8px solid rgb(13, 111, 150);
+	}
+
+	.nav li:nth-child(6n+4) {
+		border-left: 8px solid rgb(10, 75, 117);
+	}
+
+	.nav li:nth-child(6n+5) {
+		border-left: 8px solid rgb(16, 34, 44);
+	}
+
+	.nav li:nth-child(6n+6) {
+		border-left: 8px solid rgb(9, 18, 25);
+	}
+
+	/* make the nav bigger on touch screens */
+	.touch .nav a {
+		padding: 0.8em;
+	}
+}
+

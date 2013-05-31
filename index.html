@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>The WordPress Template Hierarchy</title>
+		<meta name="description" content="Responsive Retina-Friendly Menu with different, size-dependent layouts" />
+		<meta name="keywords" content="responsive menu, retina-ready, icon font, media queries, css3, transition, mobile" />
+		<meta name="author" content="Rami Abraham" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/lines.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+				<a class="codrops-icon codrops-icon-prev" href="#"><span class="hierarchy-name">More WordPress Resources</span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="#"><span class="hierarchy-name">Fork on Github</span></a></span>
+			</div>
+			<header><h3><em>the</em></h3><hr />
+				<h1>WordPress Template Hierarchy</h1>
+				<hr />
+				<h2>(a mini-resource)</h2>	
+			</header>
+			<div class="main clearfix">
+				<nav id="menu" class="nav col1">					
+					<ul>
+					
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">Archive Page</span>
+							</a>
+						</li>
+						<div class="l1"></div>
+						<div class="l2"></div>
+						<div class="l3"></div>
+						<div class="l4"></div>
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span class="hierarchy-name">Singular Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span class="hierarchy-name">Site Front Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span class="hierarchy-name">Blog Posts Index Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span class="hierarchy-name">Comments Popup Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Error 404 Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Search Result Page</span>
+							</a>
+						</li>
+						
+					</ul>
+				</nav>
+				
+				<!--end first menu column, start second menu below -->
+				
+				<nav id="menu" class="nav col2">					
+					<ul>
+					
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">Single Post Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span class="hierarchy-name">Static Page</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span class="hierarchy-name">font-page.php</span>
+							</a>
+						</li>
+						
+												
+					</ul>
+				</nav> <!-- end second menu column, start third one below -->
+				
+				<nav id="menu" class="nav col3">					
+					<ul>
+					
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">Author Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span class="hierarchy-name">Category Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span class="hierarchy-name">Custom Post Type Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span class="hierarchy-name">Custom Taxonomy Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span class="hierarchy-name">Date Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Tag Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Attachment Post</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Custom Post</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Blog Post</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Page Template</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Page Shown On Front</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Posts Shown On Front</span>
+							</a>
+						</li>
+						
+					</ul>
+				</nav>
+				
+				<!-- end third menu column, start fourth one below -->
+				
+				<nav id="menu" class="nav col4">					
+					<ul>
+					
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">author-$nicename.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span class="hierarchy-name">category-$slug.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span class="hierarchy-name">taxonomy-$taxonomyterm.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span class="hierarchy-name">Year Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span class="hierarchy-name">Month Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Day Archive</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">tag-$slug.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">$mimetype.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Custom Template</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">Default Template</span>
+							</a>
+						</li>
+						
+						
+					</ul>
+				</nav>
+				<!-- end fourth menu column, start fifth one below -->
+				
+				<nav id="menu" class="nav col5">					
+					<ul>
+					
+					<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">author-$id.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">category-$id.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">taxonomy-$taxonomy.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">tag-$id.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">$subtype.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">$custom.php</span>
+							</a>
+						</li>
+					
+					
+					</ul></nav><!-- end fifth menu column, start sixth one below -->
+				
+				<nav id="menu" class="nav col6">					
+					<ul>
+					
+					<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">$mimetype_$subtype.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">page-$slug.php</span>
+							</a>
+						</li>
+						</ul></nav><!-- end sixth menu column, start seventh one below -->
+				
+				<nav id="menu" class="nav col7">					
+					<ul>
+					
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">author.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span class="hierarchy-name">category.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span class="hierarchy-name">archive-$posttype.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span class="hierarchy-name">taxonomy.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span class="hierarchy-name">date.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">tag.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">attachment.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">single-$posttype.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">single-post</span>
+							</a>
+						</li>
+						
+						<li class="wp-orange">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span class="hierarchy-name">page-$id.php</span>
+							</a>
+						</li>
+						
+						
+					</ul>
+				</nav>
+				
+				<!-- end seventh menu column, start eighth one below -->
+				
+				<nav id="menu" class="nav col8">					
+					<ul>
+					
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">archive.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">single.php</span>
+							</a>
+						</li>
+
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">page.php</span>
+							</a>
+						</li>
+
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">home.php</span>
+							</a>
+						</li>
+
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">comments-popup.php</span>
+							</a>
+						</li>
+
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">404.php</span>
+							</a>
+						</li>
+
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">search.php</span>
+							</a>
+						</li>
+
+
+					</ul>
+				</nav>
+
+				<!-- end eighth menu column, start ninth one below -->
+				
+				<nav id="menu" class="nav col9">					
+					<ul>
+					
+						<li class="wp-light-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">Paged:true paged.php</span>
+							</a>
+						</li>
+						
+						<li class="wp-grey">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">Paged:false</span>
+							</a>
+						</li>
+
+						
+
+					</ul>
+				</nav>
+				
+				<!-- end ninth menu column, start last column (index.php) below -->
+				
+				<nav id="menu" class="nav col10">					
+					<ul>
+					
+						<li class="wp-blue">
+							<a href="#">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span class="hierarchy-name">index.php</span>
+							</a>
+						</li>
+						
+					</ul>
+				</nav>
+				
+				
+				
+				
+				
+			</div>
+		</div><!-- /container -->
+		<script>
+			//  The function to change the class
+			var changeClass = function (r,className1,className2) {
+				var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
+				if( regex.test(r.className) ) {
+					r.className = r.className.replace(regex,' '+className2+' ');
+			    }
+			    else{
+					r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"),' '+className1+' ');
+			    }
+			    return r.className;
+			};	
+
+			//  Creating our button in JS for smaller screens
+			var menuElements = document.getElementById('menu');
+			menuElements.insertAdjacentHTML('afterBegin','<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
+
+			//  Toggle the class on click to show / hide the menu
+			document.getElementById('menutoggle').onclick = function() {
+				changeClass(this, 'navtoogle active', 'navtoogle');
+			}
+		</script>
+	</body>
+</html>

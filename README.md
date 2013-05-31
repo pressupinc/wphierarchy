@@ -1,4 +1,6 @@
-wphierarchy
-===========
+Created by Codrops
 
-WordPress template hierarchy resource
+http://www.codrops.com
+
+Please read about our license: http://tympanus.net/codrops/licensing/
+
