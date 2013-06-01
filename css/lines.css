@@ -1,13 +1,20 @@
+.lines {margin-top: 502px;
+	margin-left:14px;
+	position: absolute;
+	z-index: 90;
+}
+
 .l1 {background: #C8C7C6;
 	height: 3px;
-	width: 135px;
+	width: 1000px;
 	margin-left:64px;
 	margin-top: -458px;
-	z-index: 500;
 	position: absolute;
 }
 
-.l2 {background: transparent;
+/*short connector, left-facing elbow */
+
+.l-small-elbow {background: transparent;
 	height: 410px;
 	border-left: 0;
 	border-bottom: 0;
@@ -16,7 +23,6 @@
 	width: 12px;
 	margin-left:65px;
 	margin-top: -457px;
-	z-index: 500;
 	position: absolute;
 	-webkit-border-top-right-radius: 12px;
 -moz-border-radius-topright: 12px;
@@ -27,46 +33,230 @@ border-top-right-radius: 12px;
 	height: 56px;
 	border-left: 3px solid #C8C7C6;
 	border-bottom: 3px solid #C8C7C6;
-	border-right: 0;
+	border-right: 3px solid #C8C7C6;
 	border-top: 0;
-	width: 125px;
+	width: 710px;
 	margin-left:74px;
 	margin-top: -439px;
-	z-index: 500;
 	position: absolute;
-	-webkit-border-bottom-left-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+-webkit-border-bottom-left-radius: 12px;
+-moz-border-radius-bottomright: 12px;
 -moz-border-radius-bottomleft: 12px;
+border-bottom-right-radius: 12px;
 border-bottom-left-radius: 12px;
 }
+
+/* .l4 is just to the right of 'Archive Page' */
 
 .l4 {background: transparent;
 	height: 56px;
 	border-left: 3px solid #C8C7C6;
 	border-bottom: 3px solid #C8C7C6;
-	border-right: 0;
+	border-right: 3px solid #C8C7C6;
 	border-top: 0;
-	width: 125px;
+	width: 710px;
 	margin-left:74px;
 	margin-top: -368px;
 	z-index: 500;
 	position: absolute;
-	-webkit-border-bottom-left-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+-webkit-border-bottom-left-radius: 12px;
+-moz-border-radius-bottomright: 12px;
 -moz-border-radius-bottomleft: 12px;
+border-bottom-right-radius: 12px;
 border-bottom-left-radius: 12px;
 }
 
-.l5 {background: transparent;
+.l5 {
+	margin-left:74px;
+	margin-top: -295px;
+
+}
+
+.l6 {margin-left:74px;
+	margin-top: -235px;
+}
+
+.l7 {background: transparent;
+	height:400px;
+	border-right: 3px solid #C8C7C6;
+	margin-left:74px;
+	margin-top: -438px;
+	-webkit-border-bottom-right-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.l8 {background: transparent;
+	margin-top: -430px;
+	width: 955px;
+	height: 462px;
+	border-left: 0;
+	border-bottom: 3px solid #C8C7C6;
+	border-right: 3px solid #C8C7C6;
+	-webkit-border-bottom-right-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.elbowtopright {margin-left:302px;
+	height: 32px;
+	margin-top: -182px;
+}
+
+
+
+.elbowtopright-singular-page {margin-left:64px;
+	height: 200px;
+	margin-top: 29px;
+}
+
+.elbowtopright-single-post-page {margin-left:186px;
+	height: 140px;
+	margin-top: 29px;
+}
+
+.elbowtopright-page-template {margin-left:299px;
+	height: 36px;
+	margin-top: 235px;
+}
+
+.elbowtopright-front-page {margin-left:182px;
+	height: 32px;
+	margin-top: 322px;
+}
+
+.elbowtopright-paged-false {margin-left:890px;
 	height: 56px;
+	margin-top: -458px;
+}
+
+.elbowboth-custom-post-to-single {margin-left:195px;
+	margin-top: 56px;
+	height: 50px;
+	width: 589px;
+	border-right: 3px solid #C8C7C6;
 	border-left: 3px solid #C8C7C6;
 	border-bottom: 3px solid #C8C7C6;
-	border-right: 0;
 	border-top: 0;
-	width: 125px;
-	margin-left:74px;
-	margin-top: -368px;
-	z-index: 500;
-	position: absolute;
+	-webkit-border-bottom-right-radius: 12px;
 	-webkit-border-bottom-left-radius: 12px;
--moz-border-radius-bottomleft: 12px;
-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+}
+
+.elbowboth-blog-post-to-single {
+	margin-top: 98px;
+	height: 80px;
+}
+
+.elbowboth-singular-page-to-index {margin-left:73px;
+	margin-top: 58px;
+	height: 180px;
+	width: 946px;
+}
+
+.singular-page-to-index-extra {background: transparent;
+	border-right: 3px solid #C8C7C6;
+	height: 64px;
+	width: 1px;
+	margin-left: 1016px;
+	
+}
+
+.elbowboth-page-template-to-page {
+	margin-left:308px;
+	margin-top: 188px;
+	height: 28px;
+	width: 476px;
+}
+
+.elbowboth-paged-false {margin-left:899px;
+	height: 30px;
+	width: 120px;
+	margin-top: -413px;
+	border-right: 3px solid #C8C7C6;
+	border-left: 3px solid #C8C7C6;
+	border-bottom: 3px solid #C8C7C6;
+	border-top: 0;
+	-webkit-border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+}
+
+.elbowtopleft {
+	height: 32px;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 3px solid #C8C7C6;
+	border-top: 3px solid #C8C7C6;
+	width: 12px;
+	margin-left:781px;
+	margin-top: -458px;
+	position: absolute;
+	-webkit-border-top-left-radius: 12px;
+-moz-border-radius-topleft: 12px;
+border-top-left-radius: 12px;
+-webkit-border-top-right-radius: 0;
+-moz-border-radius-topright: 0;
+border-top-right-radius: 0;
+}
+
+.elbowtopleft-index-dot-php {
+	margin-left:1016px;
+}
+
+.elbowtopleft-single {
+	margin-top: 29px;
+	height: 64px;
+}
+
+.elbowtopleft-page {
+	margin-top: 236px;
+	height: 20px;
+}
+
+.elbowtopleft-home {
+	margin-top: 336px;
+}
+
+.elbowtopleft-date {
+	margin-left:428px;
+	margin-top: -182px;
+}
+
+.elbowbottomleft-date-archives {margin-left:311px;
+	height: 30px;
+	width: 120px;
+	margin-top: -166px;
+	border-right: 3px solid #C8C7C6;
+	border-left: 3px solid #C8C7C6;
+	border-bottom: 3px solid #C8C7C6;
+	border-top: 0;
+	-webkit-border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+}
+
+.elbowbottomleft-date-archives-2 {
+	margin-top: -150px;
+	height: 56px;
 }

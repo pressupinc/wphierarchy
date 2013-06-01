@@ -41,6 +41,28 @@ a:hover {
 
 h1,h2,h3 {font-family: 'Milonga', cursive;}
 
+h1 {color:#C8C7C6;
+font-weight: bold;
+text-shadow: 1px 1px #464646,
+2px 2px #464646,
+3px 3px #464646,
+4px 4px #464646,
+5px 5px #464646;}
+
+/* adds the WP logo. a bit much it turns out - but i think it should be _somewhere_
+
+	h1:before {
+	font-family: 'Genericons';
+	font-size:.9em;
+	content: '\f205';
+	padding-top: .5em;
+} */
+
+h2 {margin: 0 0 0 0;}
+
+h3 {font-style: italic;
+margin-bottom: 0; }
+
 .main,
 .container > header {
 	width: 100%;
@@ -49,7 +71,7 @@ h1,h2,h3 {font-family: 'Milonga', cursive;}
 }
 
 .main {
-	max-width: 94%;
+	width: 1280px;
 	min-height: 40em;
 }
 
