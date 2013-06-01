@@ -1,4 +1,4 @@
-.icon-team, .icon-blog, .icon-home, .icon-portfolio, .icon-services, .icon-contact, .icon-menu {
+.icon-archive, .icon-author, .icon-page, .icon-home, .icon-blog, .icon-comments, .icon-404, .icon-search, .icon-category, .icon-date, .icon-month, .icon-day, .icon-tag, .icon-attachment, .icon-post, .icon-star {
 	font-family: 'Genericons';
 	speak: none;
 	font-style: normal;
@@ -9,32 +9,71 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.icon-team:before {
-	content: "\e000";
+.icon-archive:before {
+	content: '\f444';
 }
 
-.icon-blog:before {
-	content: "\e001";
+.icon-author:before {
+	content: '\f304';
+}
+
+.icon-page:before {
+	content: '\f443';
+}
+
+.icon-post:before {
+content: '\f100';
 }
 
 .icon-home:before {
-	content: "\e002";
+	content: '\f409';
 }
 
-.icon-portfolio:before {
-	content: "\e003";
+.icon-blog:before {
+	content: '\f413';
 }
 
-.icon-services:before {
-	content: "\e004";
+.icon-comments:before {
+	content: '\f300';
 }
 
-.icon-contact:before {
-	content: "\e005";
+.icon-404:before {
+	content: '\f423';
 }
 
-.icon-menu:before {
-	content: "\f0c9";
+.icon-search:before {
+	content: '\f400';
+}
+
+.icon-category:before {
+	content: '\f301';
+}
+
+.icon-date:before {
+	content: '\f303';
+}
+.icon-month:before {
+	content: '\f307';
+}
+
+.icon-week:before {
+	content: '\f306';
+}
+
+.icon-day:before {
+	content: '\f305';
+}
+
+.icon-tag:before {
+	content: '\f302';
+}
+
+.icon-attachment:before {
+	content: '\f416';
+}
+
+.icon-star:before {
+	content: '\f408';
 }
 
 a, li {
@@ -145,6 +184,10 @@ a, button {
 	
 }
 
+/* yellow color for args */
+
+.hierarchy-name .highlight {color: #FBEF99;
+}
 /* special nth-child styles for each wphierarchy column li */
 
 /* col1 styles */
@@ -155,7 +198,7 @@ a, button {
 
 .col1 ul li:nth-child(1) {height: 480px;}
 
-.col1 ul li:nth-child(2) {height: 298px !important;}
+.col1 ul li:nth-child(2) {height: 298px;}
 
 .col1 ul li:nth-child(3) {height: 80px;
 }
@@ -202,6 +245,7 @@ a, button {
 
 .col4 ul li:nth-child(3) {margin-top: 80px;}
 
+.col4 ul li:nth-child(3) .highlight {font-size: .9em;}
 
 /*decrease the height to make the smallest button*/
 
@@ -219,12 +263,12 @@ a, button {
 /*hierarchy label padding for smallest buttons*/
 
 .col4 ul li:nth-child(4) .hierarchy-name,.col4 ul li:nth-child(5) .hierarchy-name, .col4 ul li:nth-child(6) .hierarchy-name, .col4 ul li:nth-child(9) .hierarchy-name, .col4 ul li:nth-child(10) .hierarchy-name, .col6 ul li:nth-child(2) .hierarchy-name, .col7 ul li:nth-child(10) .hierarchy-name {
-	padding-top:10px;
+	padding-top:6px;
 }
 
 /*fix the dot on smallest button*/
 
-.col4 li:nth-child(4) a:before, .col4 li:nth-child(5) a:before, .col4 li:nth-child(6) a:before, .col4 li:nth-child(9) a:before, .col4 li:nth-child(10) a:before, .col5 li:nth-child(6) a:before, .col6 li:nth-child(2) a:before, .col7 li:nth-child(10) a:before {margin-top:-2px;}
+.col4 li:nth-child(4) a:before, .col4 li:nth-child(5) a:before, .col4 li:nth-child(6) a:before, .col4 li:nth-child(9) a:before, .col4 li:nth-child(10) a:before, .col5 li:nth-child(6) a:before, .col6 li:nth-child(2) a:before, .col7 li:nth-child(10) a:before, .col8 li:nth-child(4) a:before {margin-top:-2px;}
 
 .col4 li:nth-child(9) {margin-top: 152px;}
 
@@ -236,8 +280,12 @@ a, button {
 
 .col5 ul li:nth-child(6)  {margin-top: 152px;}
 
-.col5 ul li:nth-child(6) .hierarchy-name {padding-top: 10px;
+.col5 ul li:nth-child(6) .hierarchy-name {
+	margin-top:-24px;
+	padding-right:4px;
 	font-size:.9em;
+	word-break: break-word;
+	float: right;
 }
 
 /*col6 styles*/
@@ -245,6 +293,11 @@ a, button {
 .col6 ul li:nth-child(1)  {margin-top: 488px;}
 
 .col6 ul li:nth-child(2)  {margin-top: 196px;}
+
+.col6 ul li:nth-child(2) .hierarchy-name {margin-top:-40px;
+	float:right;
+	padding-right:4px;
+}
 
 /*col7 styles*/
 
@@ -273,9 +326,14 @@ a, button {
 
 /*col10 styles*/
 
-.col10 li {height: 1160px;
+.col10 li {height: 1190px;
 	width: 64px;
 }
+
+/*add some space above some elements to allow for the vertical line above 'Page Shown On Front' */
+
+.col1 ul li:nth-child(3), .col2 ul li:nth-child(3), .col3 ul li:nth-child(11), .col8 ul li:nth-child(4) {margin-top: 40px;}
+
 
 /*end column styles*/
 

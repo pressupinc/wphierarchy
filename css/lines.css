@@ -121,10 +121,10 @@ border-bottom-left-radius: 12px;
 	height: 36px;
 	margin-top: 235px;
 }
-
-.elbowtopright-front-page {margin-left:182px;
+/************************************/
+.elbowtopright-front-page {margin-left:186px;
 	height: 32px;
-	margin-top: 322px;
+	margin-top: 355px;
 }
 
 .elbowtopright-paged-false {margin-left:890px;
@@ -156,10 +156,53 @@ border-bottom-left-radius: 12px;
 	height: 80px;
 }
 
+.elbowboth-front-page-to-home {
+	margin-top: 13px;
+	height: 30px;
+}
+
+.elbowboth-blog-posts-index-page-to-home {margin-left:64px;
+	margin-top: 33px;
+	width: 720px;
+	height: 70px;
+	border-left: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.comments-popup-page {
+	margin-top: -178px;
+	width: 955px;
+	height: 350px;
+}
+
+.error-404-page {margin-top: -105px;
+}
+
+.search-result-page {margin-top: -33px;
+}
+
 .elbowboth-singular-page-to-index {margin-left:73px;
 	margin-top: 58px;
 	height: 180px;
 	width: 946px;
+}
+
+.elbowboth-custom-to-page-slug {margin-left:483px;
+	margin-top: 156px;
+	height: 60px;
+	width: 146px;
+	border-right: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 12px;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px
 }
 
 .singular-page-to-index-extra {background: transparent;
@@ -229,7 +272,7 @@ border-top-right-radius: 0;
 }
 
 .elbowtopleft-home {
-	margin-top: 336px;
+	margin-top: 354px;
 }
 
 .elbowtopleft-date {
@@ -259,4 +302,15 @@ border-top-right-radius: 0;
 .elbowbottomleft-date-archives-2 {
 	margin-top: -150px;
 	height: 56px;
+}
+
+.site-front-page {margin-left:38px;
+	height: 120px;
+	width: 220px;
+	margin-top: 174px;
+	border-bottom: 3px solid #C8C7C6;
+	border-right: 3px solid #C8C7C6;
+	-webkit-border-bottom-right-radius: 48px;
+-moz-border-radius-bottomright: 48px;
+border-bottom-right-radius: 48px;
 }
