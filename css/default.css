@@ -106,7 +106,7 @@ hr {
 }
 
 /* Header Style */
-.codrops-top {
+.wphierarchy-top {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.4);
 	text-transform: uppercase;
@@ -116,28 +116,28 @@ hr {
 	line-height: 2.2;
 }
 
-.codrops-top a {
+.wphierarchy-top a {
 	padding: 0 1em;
 	letter-spacing: 0.1em;
 	color: #888;
 	display: inline-block;
 }
 
-.codrops-top a:hover {
+.wphierarchy-top a:hover {
 	background: rgba(255,255,255,0.9);
 }
 
-.codrops-top span.right {
+.wphierarchy-top span.right {
 	float: right;
 }
 
-.codrops-top span.right a {
+.wphierarchy-top span.right a {
 	float: left;
 	display: block;
 }
 
-.codrops-icon:before {
-	font-family: 'codropsicons';
+.wphierarchy-icon:before {
+	font-family: 'wphierarchyicons';
 	margin: 0 4px;
 	speak: none;
 	font-style: normal;
@@ -147,24 +147,24 @@ hr {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.codrops-icon-drop:before {
+.wphierarchy-icon-drop:before {
 	content: "\e001";
 }
-.codrops-icon-prev:before {
+.wphierarchy-icon-prev:before {
 	content: "\e004";
 }
-.codrops-icon-archive:before {
+.wphierarchy-icon-archive:before {
 	content: "\e002";
 }
-.codrops-icon-next:before {
+.wphierarchy-icon-next:before {
 	content: "\e000";
 }
-.codrops-icon-about:before {
+.wphierarchy-icon-about:before {
 	content: "\e003";
 }
 
 @media screen and (max-width: 25em) { 
-	.codrops-icon span {
+	.wphierarchy-icon span {
 		display: none;
 	}
 	.container > header {
