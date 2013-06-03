@@ -13,4 +13,3 @@ WordPress template hierarchy mini resource
 ####To-do:
 
 - Add links to the Codex for each item
-- Remove the breakpoints - all of them.
