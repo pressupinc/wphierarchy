@@ -1,4 +1,6 @@
-.icon-archive, .icon-author, .icon-page, .icon-home, .icon-blog, .icon-comments, .icon-404, .icon-search, .icon-category, .icon-date, .icon-month, .icon-day, .icon-tag, .icon-attachment, .icon-post, .icon-star {
+/* Believe it or not, it's all vanilla CSS. A nightmare of absolute positioning. But it's all so familiar to me, you know? But please consider this comment area as a Public Service Announcement against doing so. Use SCSS or LESS. Do yourself a favor. */
+
+.icon-archive, .icon-author, .icon-page, .icon-home, .icon-blog, .icon-comments, .icon-404, .icon-search, .icon-category, .icon-date, .icon-month, .icon-day, .icon-tag, .icon-attachment, .icon-post, .icon-star, .icon-wordpress, .icon-github, .icon-alert {
 	font-family: 'Genericons';
 	speak: none;
 	font-style: normal;
@@ -74,6 +76,38 @@ content: '\f100';
 
 .icon-star:before {
 	content: '\f408';
+}
+
+.icon-alert:before {
+font-family: 'Genericons';
+content: '\f414';
+display: inline-block;
+float: left;
+}
+
+.icon-alert {
+	text-align: right;
+	display: block;
+	font-family: 'Times', serif;
+}
+
+.icon-wordpress:before {
+	content: '\f205';	
+}
+
+.icon-github:before {
+	content: '\f200';
+}
+
+.creds p {border: 2px dotted #CCC;
+padding: 4px;
+width: 120px;
+float: right;
+border-radius: 4px;
+}
+
+.creds a:hover {color: #464646;
+	font-style: oblique;
 }
 
 a, li {
@@ -651,3 +685,6 @@ a, button {
 	}
 }
 
+.creds {text-align: center;
+	margin-top:32px;
+}
