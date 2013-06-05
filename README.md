@@ -15,3 +15,4 @@ WordPress template hierarchy mini resource
 - [x] ~~Add links to the Codex for each item~~
 - [ ] Add example loops and/or semantic data when relevant on :active
 - [ ] Reduce the height of the header a bit
+- [ ] Add color-coded legend below header
