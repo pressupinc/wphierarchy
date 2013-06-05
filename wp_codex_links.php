@@ -59,64 +59,64 @@ $wp_codex_links = array(
 								
 							 'tag_slug' => 'http://codex.wordpress.org/Tag_Templates',
 								
-							 'mimetype' => '',
+							 'mimetype' => 'http://codex.wordpress.org/Function_Reference/get_post_mime_type',
 								
-							 'custom_template' => '',
+							 'custom_template' => 'http://codex.wordpress.org/Post_Types#Custom_Post_Types',
 								
-							 'default_template' => '',
+							 'default_template' => 'http://codex.wordpress.org/Post_Types#Page',
 								
 							 'author_id' => 'http://codex.wordpress.org/Author_Templates',
 								
 							 'category_id' => 'http://codex.wordpress.org/Category_Templates',
 								
-							 'taxonomy_taxonomy' => '',
+							 'taxonomy_taxonomy' => 'http://codex.wordpress.org/Post_Type_Templates',
 							
 							 'tag_id' => 'http://codex.wordpress.org/Tag_Templates',
 								
-							 'subtype' => '',
+							 'subtype' => 'http://codex.wordpress.org/Function_Reference/get_post_mime_type',
 								
-							 'custom' => '',
+							 'custom' => 'http://codex.wordpress.org/Post_Type_Templates',
 							
-							 'mimetype_subtype' => '',
+							 'mimetype_subtype' => 'http://codex.wordpress.org/Function_Reference/get_post_mime_type',
 							
-							 'page_slug' => '',
+							 'page_slug' => 'http://codex.wordpress.org/Page_Templates#Specialized_Page_Template',
 							
 							 'author' => 'http://codex.wordpress.org/Author_Templates',
 							
 							 'category' => 'http://codex.wordpress.org/Category_Templates',
 							
-							 'archive_posttype' => '',
+							 'archive_posttype' => 'http://codex.wordpress.org/Post_Type_Templates',
 							
-							 'taxonomy' => '',
+							 'taxonomy' => 'http://codex.wordpress.org/Post_Type_Templates',
 								
-							 'date' => '',
+							 'date' => 'http://codex.wordpress.org/User:Skippy/Date.php',
 								
 							 'tag' => 'http://codex.wordpress.org/Tag_Templates',
 							
-							 'attachment' => '',
+							 'attachment' => 'http://codex.wordpress.org/Using_Image_and_File_Attachments#Usage_in_Themes',
 								
-							 'single_posttype' => '',
+							 'single_posttype' => 'http://codex.wordpress.org/Post_Type_Templates',
 								
-							 'single_post' => '',
+							 'single_post' => 'http://codex.wordpress.org/Post_Type_Templates', // pop-out could be an updated and condensed version of: http://justintadlock.com/archives/2008/12/06/creating-single-post-templates-in-wordpress
 								
-							 'page_id' => '',
+							 'page_id' => 'http://codex.wordpress.org/Page_Templates#Specialized_Page_Template',
 								
-							 'archive' => '',
+							 'archive' => 'http://codex.wordpress.org/Creating_an_Archive_Index#The_Archives_Page',
 								
-							 'single' => '',
+							 'single' => 'http://codex.wordpress.org/Theme_Development#Single_Post_.28single.php.29',
 								
-							 'page' => '',
+							 'page' => 'http://codex.wordpress.org/Page_Templates',
 							
-							 'home' => '',
+							 'home' => 'http://codex.wordpress.org/Template_Hierarchy#Examples',
 								
-							 'comments_popup' => '',
+							 'comments_popup' => 'http://codex.wordpress.org/Function_Reference/comments_popup_script',
 								
-							 '404' => '',
+							 '404' => 'http://codex.wordpress.org/Creating_an_Error_404_Page',
 								
-							 'search' => '',
+							 'search' => 'http://codex.wordpress.org/Creating_a_Search_Page',
 
-							 'paged_true' => '',
+							 'paged_true' => 'http://codex.wordpress.org/Function_Reference/is_paged',
 								
-							 'paged_false' => '',
+							 'paged_false' => 'http://codex.wordpress.org/Function_Reference/is_paged',
 
-							 'index' => '' ); ?>
+							 'index' => 'http://codex.wordpress.org/Theme_Development#Index_.28index.php.29' ); ?>
