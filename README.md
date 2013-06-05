@@ -12,6 +12,6 @@ WordPress template hierarchy mini resource
 
 ####To-do:
 
-- [x] ~~Add links to the Codex for each item~~
+- [x] Add links to the Codex for each item
 - [ ] Add example loops and/or semantic data when relevant on :active
 - [ ] Reduce the height of the header a bit
