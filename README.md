@@ -12,4 +12,4 @@ WordPress template hierarchy mini resource
 
 ####To-do:
 
-- Add links to the Codex for each item
+- ~~Add links to the Codex for each item~~
