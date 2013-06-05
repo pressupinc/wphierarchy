@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -82,12 +84,13 @@
 						
 						
 					</div>
-			
+					<?php include_once "wp_codex_links.php"; ?>
+
 				<nav id="menu" class="nav col1">					
 					<ul>
 					
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['archive_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-archive"></i>
 								</span>
@@ -97,7 +100,7 @@
 						
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['singular_page']; ?>">
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -106,7 +109,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['site_front_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -115,7 +118,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['blog_posts_index_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-blog"></i>
 								</span>
@@ -124,7 +127,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['comments_popup_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-comments"></i>
 								</span>
@@ -133,7 +136,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['error_404_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-404"></i>
 								</span>
@@ -142,7 +145,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['search_result_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-search"></i>
 								</span>
@@ -159,7 +162,7 @@
 					<ul>
 					
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['single_post_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -168,7 +171,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['static_page']; ?>">
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -177,7 +180,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['front_page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -193,7 +196,7 @@
 					<ul>
 					
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['author_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-author"></i>
 								</span>
@@ -202,7 +205,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['category_archive']; ?>">
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
@@ -211,7 +214,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['custom_post_type_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
@@ -220,7 +223,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['custom_taxonomy_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
@@ -229,7 +232,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['date_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
@@ -238,7 +241,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['tag_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
@@ -247,7 +250,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['attachment_post']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
@@ -256,7 +259,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['custom_post']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
@@ -265,7 +268,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['blog_post']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
@@ -274,7 +277,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['page_template']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -283,7 +286,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['page_shown_on_front']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -292,7 +295,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['posts_shown_on_front']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -309,7 +312,7 @@
 					<ul>
 					
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['author_nicename']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-author"></i>
 								</span>
@@ -318,7 +321,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['category_slug']; ?>">
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
@@ -327,7 +330,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['taxonomy_taxonomy_term']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
@@ -336,7 +339,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['year_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
@@ -345,7 +348,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['month_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-month"></i>
 								</span>
@@ -354,7 +357,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['day_archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-day"></i>
 								</span>
@@ -363,7 +366,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['tag_slug']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
@@ -372,7 +375,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['mimetype']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
@@ -381,7 +384,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['custom_template']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -390,7 +393,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['default_template']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -407,7 +410,7 @@
 					<ul>
 					
 					<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['author_id']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-author"></i>
 								</span>
@@ -416,7 +419,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['category_id']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
@@ -425,7 +428,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['taxonomy_taxonomy']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -434,7 +437,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['tag_id']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
@@ -443,7 +446,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['subtype']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
@@ -452,7 +455,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['custom']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -467,7 +470,7 @@
 					<ul>
 					
 					<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['mimetype_subtype']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
@@ -476,7 +479,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['page_slug']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -489,7 +492,7 @@
 					<ul>
 					
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['author']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-author"></i>
 								</span>
@@ -498,7 +501,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['category']; ?>">
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
@@ -507,7 +510,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['archive_posttype']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-archive"></i>
 								</span>
@@ -516,7 +519,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['taxonomy']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -525,7 +528,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['date']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
@@ -534,7 +537,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['tag']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
@@ -543,7 +546,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['attachment']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
@@ -552,7 +555,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['single_posttype']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
@@ -561,7 +564,7 @@
 						</li>
 						
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['single_post']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
@@ -570,7 +573,7 @@
 						</li>
 						
 						<li class="wp-orange">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['page_id']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -588,7 +591,7 @@
 					<ul>
 					
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['archive']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-archive"></i>
 								</span>
@@ -597,7 +600,7 @@
 						</li>
 						
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['single']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
@@ -606,7 +609,7 @@
 						</li>
 
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['page']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -615,7 +618,7 @@
 						</li>
 
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['home']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -624,7 +627,7 @@
 						</li>
 
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['comments_popup']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-comments"></i>
 								</span>
@@ -633,7 +636,7 @@
 						</li>
 
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['404']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-404"></i>
 								</span>
@@ -642,7 +645,7 @@
 						</li>
 
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['search']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-search"></i>
 								</span>
@@ -660,7 +663,7 @@
 					<ul>
 					
 						<li class="wp-light-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['paged_true']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -669,7 +672,7 @@
 						</li>
 						
 						<li class="wp-grey">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['paged_false']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
@@ -688,7 +691,7 @@
 					<ul>
 					
 						<li class="wp-blue">
-							<a href="#">
+							<a href="<?php echo $wp_codex_links['index']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-star"></i>
 								</span>
@@ -718,4 +721,4 @@
 			</div>
 		</div><!-- /container -->
 	</body>
-</html>
+</html><?php ?>
