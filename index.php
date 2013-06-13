@@ -22,7 +22,7 @@
 			<!-- wphierarchy top bar -->
 			<div class="wphierarchy-top clearfix">
 				<a class="wphierarchy-icon" href="http://codex.wordpress.org/Template_Hierarchy"><span class="hierarchy-name icon-wordpress">More on the WordPress Template Hierarchy at the official WordPress Codex</span></a>
-				<span class="right"><a class="wphierarchy-icon" href="https://github.com/ramiabraham/wphierarchy"><span class="hierarchy-name icon-github">Report an Issue</span></a></span>
+				<span class="right"><a class="wphierarchy-icon" href="https://github.com/ramiabraham/wphierarchy"><span class="hierarchy-name icon-github">Fork / Report an Issue</span></a></span>
 			</div>
 			<header>
 			<h3>the</h3>
@@ -705,14 +705,14 @@
 				<div class="creds">
 				<h2>A Quaint & Helpy Thing</h2>
 				<hr/>
-				by <a href="http://twitter.com/ramiabraham">Rami Abraham</a>, based on the original
-				design by <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
+				coded by <a href="http://twitter.com/ramiabraham">Rami Abraham</a>,
+				designed by <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
 				<br /><br />
 				Icons are the lovely <a href="http://genericons.com">Genericons</a>.
 				
-				<p class="icon-alert">No images were harmed in the making of this site.</p>
+				<p class="icon-alert">05 June 2013: Now with links!</p>
 				
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="WordPress template hierarchy resource" data-via="ramiabraham" data-count="none" data-dnt="true">Tweet</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="the WordPress template hierarchy, a mini resource by @marktimemedia and @ramiabraham" data-count="none" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				
 				</div> 
