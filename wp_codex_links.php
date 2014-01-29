@@ -61,7 +61,7 @@ $wp_codex_links = array(
 								
 							 'mimetype' => 'http://codex.wordpress.org/Function_Reference/get_post_mime_type',
 								
-							 'custom_template' => 'http://codex.wordpress.org/Post_Types#Custom_Post_Types',
+							 'custom_template' => 'http://codex.wordpress.org/Page_Templates#Custom_Page_Template',
 								
 							 'default_template' => 'http://codex.wordpress.org/Post_Types#Page',
 								
@@ -75,7 +75,7 @@ $wp_codex_links = array(
 								
 							 'subtype' => 'http://codex.wordpress.org/Function_Reference/get_post_mime_type',
 								
-							 'custom' => 'http://codex.wordpress.org/Post_Type_Templates',
+							 'custom' => 'http://codex.wordpress.org/Page_Templates#Custom_Page_Template',
 							
 							 'mimetype_subtype' => 'http://codex.wordpress.org/Function_Reference/get_post_mime_type',
 							
