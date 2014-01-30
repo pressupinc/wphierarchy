@@ -3,12 +3,13 @@ WordPress template hierarchy mini resource
 
 ##Located at: http://wphierarchy.com
 
-###Credit:
+###Credit and Contributions:
 
-- Rami Abraham (code, bit of design)
-- Michelle Schulp (design)
-- Chip Bennett (OG WP Template Hierarchy visualization)
+- Michelle Schulp ( original design, http://marktimemedia.com/redesigning-the-template-hierarchy/ )
+- Rami Abraham ( code, site )
+- Chip Bennett (OG WP Template Hierarchy visualization, http://www.chipbennett.net/themes/template-hierarchy/ )
 - Genericons.com (icons)
+- tnorthcutt ( Codex URL patch )
 
 ####To-do:
 
