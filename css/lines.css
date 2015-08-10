@@ -177,19 +177,23 @@ border-bottom-left-radius: 12px;
 	height: 350px;
 }
 
-.error-404-page {margin-top: -105px;
+.error-404-page {
+	margin-top: -105px;
 }
 
-.search-result-page {margin-top: -33px;
+.search-result-page {
+	margin-top: -33px;
 }
 
-.elbowboth-singular-page-to-index {margin-left:73px;
+.elbowboth-singular-page-to-index {
+	margin-left:73px;
 	margin-top: 58px;
 	height: 180px;
-	width: 946px;
+	width: 830px;
 }
 
-.elbowboth-custom-to-page-slug {margin-left:483px;
+.elbowboth-custom-to-page-slug {
+	margin-left:483px;
 	margin-top: 156px;
 	height: 60px;
 	width: 146px;
@@ -321,4 +325,17 @@ border-top-right-radius: 0;
 	-webkit-border-bottom-right-radius: 48px;
 -moz-border-radius-bottomright: 48px;
 border-bottom-right-radius: 48px;
+}
+
+.singular-elbow-left {
+	margin-top: 29px;
+	right: 107px;
+}
+
+.singular-connector-right {
+	border-top-left-radius: 0;
+	margin-top: 64px;
+	height: 116px;
+	right: -9px;
+	border-top: 0;
 }

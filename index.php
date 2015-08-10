@@ -1,4 +1,7 @@
 <?php
+
+include_once "wp_codex_links.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -8,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>The WordPress Template Hierarchy - a mini resource</title>
 		<meta name="description" content="The WordPress Template Hierarchy - a mini resource by Rami Abraham, based on the original design by Michelle Schulp" />
-		<meta name="keywords" content="wordpress, hierarchy, cats, nintendo" />
+		<meta name="keywords" content="wordpress, hierarchy" />
 		<meta name="author" content="Rami Abraham" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
@@ -57,11 +60,13 @@
 						<div class="l-small-elbow elbowtopleft elbowtopleft-home"></div>
 
 						<div class="l-small-elbow elbowboth-custom-post-to-single home-to-index"></div>
-						
+
 						<div class="l-small-elbow elbowtopleft elbowtopleft-date"></div>
 						<div class="l-small-elbow elbowtopright elbowtopright-paged-false"></div>
 						<div class="l-small-elbow elbowboth-paged-false"></div>
 
+						<div class="l-small-elbow elbowtopleft singular-elbow-left"></div>
+						<div class="l-small-elbow elbowtopleft singular-connector-right"></div>
 						<div class="l-small-elbow elbowtopright elbowtopright-singular-page"></div>
 						<div class="l-small-elbow elbowtopright elbowtopright-single-post-page"></div>
 						<div class="l-small-elbow elbowtopright elbowtopright-page-template"></div>
@@ -87,7 +92,6 @@
 
 
 					</div>
-					<?php include_once "wp_codex_links.php"; ?>
 
 				<nav id="menu" class="nav col1">
 					<ul>
@@ -337,7 +341,7 @@
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
-								<span class="hierarchy-name">taxonomy-<span class="highlight">$taxonomy-$term.php</span></span>
+								<span class="hierarchy-name">taxonomy-<span class="highlight">$tax-$term.php</span></span>
 							</a>
 						</li>
 
@@ -683,6 +687,16 @@
 							</a>
 						</li>
 
+						<li class="wp-blue singular">
+							<a href="<?php echo $wp_codex_links['singular_php']; ?>">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-page"></i>
+								</span>
+								<span class="hierarchy-name">singular.php</span>
+								<span class="version-note">(v 4.3+)</span>
+							</a>
+						</li>
+
 
 
 					</ul>
@@ -713,7 +727,7 @@
 				<br /><br />
 				Icons are the lovely <a href="http://genericons.com">Genericons</a>.
 
-				<p class="icon-alert">05 June 2013: Now with links!</p>
+				<p class="icon-alert">10 Aug 2015: Add singular.php, corrected home.php -> index.php.</p>
 
 				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="the WordPress template hierarchy, a mini resource by @marktimemedia and @ramiabraham" data-count="none" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
