@@ -15,9 +15,10 @@ function get_latest_update( $latest_update = '' ) {
 		$limit = 1;
 
 		for( $x=0; $x < $limit; $x++ ) {
-			$title = str_replace( ' & ', ' &amp; ', $feed[$x]['title'] );
-			$date  = date( 'l F d, Y', strtotime($feed[$x]['date'] ) );
+			$title 		   = str_replace( ' & ', ' &amp; ', $feed[$x]['title'] );
+			$date  		   = date( 'l F d, Y', strtotime($feed[$x]['date'] ) );
 			$latest_update = $title .' <span class="date">on ' . $date . '</span>';
+
 			return $latest_update;
 	}
 }
