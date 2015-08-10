@@ -275,6 +275,14 @@ border-top-right-radius: 0;
 	margin-top: 354px;
 }
 
+.elbowboth-custom-post-to-single.home-to-index {
+	margin-top: 311px;
+	right: 0px;
+	border-left: 0;
+	border-bottom-left-radius: 0;
+	width: 132px;
+}
+
 .elbowtopleft-date {
 	margin-left:428px;
 	margin-top: -182px;
