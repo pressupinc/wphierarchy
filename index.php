@@ -10,8 +10,8 @@ include_once "rss.php";
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>The WordPress Template Hierarchy - a mini resource</title>
-		<meta name="description" content="The WordPress Template Hierarchy - a mini resource by Rami Abraham, based on the original design by Michelle Schulp" />
+		<title><?php echo _( 'The WordPress Template Hierarchy - a visualization resource' ); ?></title>
+		<meta name="description" content="<?php echo _( 'The WordPress Template Hierarchy' ); ?>" />
 		<meta name="keywords" content="wordpress, hierarchy" />
 		<meta name="author" content="Rami Abraham" />
 		<link rel="shortcut icon" href="favicon.ico">
@@ -32,8 +32,8 @@ include_once "rss.php";
 			<h3>the</h3>
 				<hr />
 					<div class="wph-header">
-					  <h1>WordPress Template Hierarchy</h1>
-					  <h2>A Mini Resource</h2>
+					  <h1><?php echo _( 'WordPress Template Hierarchy' ); ?></h1>
+					  <h2><?php echo _( 'A Mini Resource'); ?></h2>
 	  				</div>
 	  					<div class="clearfix"></div>
 				<hr />
@@ -102,7 +102,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-archive"></i>
 								</span>
-								<span class="hierarchy-name">Archive Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Archive Page' ); ?></span>
 							</a>
 						</li>
 
@@ -112,7 +112,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Singular Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Singular Page' ); ?></span>
 							</a>
 						</li>
 
@@ -121,7 +121,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">Site Front Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Site Front Page' ); ?></span>
 							</a>
 						</li>
 
@@ -130,7 +130,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-blog"></i>
 								</span>
-								<span class="hierarchy-name">Blog Posts Index Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Blog Posts Index Page' ); ?></span>
 							</a>
 						</li>
 
@@ -139,7 +139,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-comments"></i>
 								</span>
-								<span class="hierarchy-name">Comments Popup Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Comments Popup Page' ); ?></span>
 							</a>
 						</li>
 
@@ -148,7 +148,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-404"></i>
 								</span>
-								<span class="hierarchy-name">Error 404 Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Error 404 Page' ); ?></span>
 							</a>
 						</li>
 
@@ -157,7 +157,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-search"></i>
 								</span>
-								<span class="hierarchy-name">Search Result Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Search Result Page' ); ?></span>
 							</a>
 						</li>
 
@@ -174,7 +174,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Single Post Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Single Post Page' ); ?></span>
 							</a>
 						</li>
 
@@ -183,7 +183,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Static Page</span>
+								<span class="hierarchy-name"><?php echo _( 'Static Page' ); ?></span>
 							</a>
 						</li>
 
@@ -192,7 +192,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">front-page.php</span>
+								<span class="hierarchy-name"><?php echo _( 'Front page' ); ?> (front-page.php)</span>
 							</a>
 						</li>
 
@@ -208,7 +208,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-author"></i>
 								</span>
-								<span class="hierarchy-name">Author Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Author Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -217,7 +217,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
-								<span class="hierarchy-name">Category Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Category Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -226,7 +226,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
-								<span class="hierarchy-name">Custom Post Type Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Custom Post Type Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -235,7 +235,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-category"></i>
 								</span>
-								<span class="hierarchy-name">Custom Taxonomy Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Custom Taxonomy Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -244,7 +244,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
-								<span class="hierarchy-name">Date Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Date Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -253,7 +253,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-tag"></i>
 								</span>
-								<span class="hierarchy-name">Tag Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Tag Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -262,7 +262,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-attachment"></i>
 								</span>
-								<span class="hierarchy-name">Attachment Post</span>
+								<span class="hierarchy-name"><?php echo _( 'Attachment Post' ); ?></span>
 							</a>
 						</li>
 
@@ -271,7 +271,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
-								<span class="hierarchy-name">Custom Post</span>
+								<span class="hierarchy-name"><?php echo _( 'Custom Post' ); ?></span>
 							</a>
 						</li>
 
@@ -280,7 +280,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-post"></i>
 								</span>
-								<span class="hierarchy-name">Blog Post</span>
+								<span class="hierarchy-name"><?php echo _( 'Blog Post' ); ?></span>
 							</a>
 						</li>
 
@@ -289,7 +289,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Page Template</span>
+								<span class="hierarchy-name"><?php echo _( 'Page Template' ); ?></span>
 							</a>
 						</li>
 
@@ -298,7 +298,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">Page Shown On Front</span>
+								<span class="hierarchy-name"><?php echo _( 'Page Shown On Front' ); ?></span>
 							</a>
 						</li>
 
@@ -307,7 +307,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
-								<span class="hierarchy-name">Posts Shown On Front</span>
+								<span class="hierarchy-name"><?php echo _( 'Posts Shown On Front' ); ?></span>
 							</a>
 						</li>
 
@@ -351,7 +351,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-date"></i>
 								</span>
-								<span class="hierarchy-name">Year <br />Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Year Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -360,7 +360,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-month"></i>
 								</span>
-								<span class="hierarchy-name">Month Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Month Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -369,7 +369,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-day"></i>
 								</span>
-								<span class="hierarchy-name">Day <br />Archive</span>
+								<span class="hierarchy-name"><?php echo _( 'Day Archive' ); ?></span>
 							</a>
 						</li>
 
@@ -396,7 +396,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Custom Template</span>
+								<span class="hierarchy-name"><?php echo _( 'Custom Template' ); ?></span>
 							</a>
 						</li>
 
@@ -405,7 +405,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Default Template</span>
+								<span class="hierarchy-name"><?php echo _( 'Default Template' ); ?></span>
 							</a>
 						</li>
 
@@ -589,7 +589,6 @@ include_once "rss.php";
 							</a>
 						</li>
 
-
 					</ul>
 				</nav>
 
@@ -661,7 +660,6 @@ include_once "rss.php";
 							</a>
 						</li>
 
-
 					</ul>
 				</nav>
 
@@ -675,7 +673,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Paged:true paged.php</span>
+								<span class="hierarchy-name"><?php echo _( 'Paged' ) . ':' . _( 'true' ); ?> paged.php</span>
 							</a>
 						</li>
 
@@ -684,7 +682,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name">Paged:false</span>
+								<span class="hierarchy-name"><?php echo _( 'Paged' ) . ':' . _( 'false' ); ?></span>
 							</a>
 						</li>
 
@@ -721,21 +719,21 @@ include_once "rss.php";
 				</nav>
 
 				<div class="creds">
-				<h2>A Quaint & Helpy Thing</h2>
+				<h2><?php echo _('A Quaint and Helpful Thing'); ?></h2>
 				<hr/>
-				coded by <a href="http://twitter.com/ramiabraham">Rami Abraham</a>,
-				designed by <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
-				<br /><br />
-				Icons are the lovely <a href="http://genericons.com">Genericons</a>.
+				<?php echo _( 'Code by' ); ?> <a href="http://twitter.com/ramiabraham">Rami Abraham</a>,
+				<?php echo _( 'Design by' ); ?> <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
+				<?php echo _('Japanese translation by'); ?> <a href="https://github.com/atachibana">Akira Tachibana</a>
+				<?php echo _( 'Icons are the lovely' ); ?> <a href="http://genericons.com">Genericons</a>.
 
 				<div class="update">
-					<h4>Latest Update:</h4>
+					<h4><?php echo _( 'Latest Update' ); ?>:</h4>
 					<p>
 					<?php echo get_latest_update(); ?>
 					</p>
 				</div>
 
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="the WordPress template hierarchy, a mini resource by @marktimemedia and @ramiabraham" data-count="none" data-dnt="true">Tweet</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="<?php echo _( 'the WordPress template hierarchy'); ?>, a mini resource by @marktimemedia and @ramiabraham" data-count="none" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 				</div>
@@ -744,4 +742,4 @@ include_once "rss.php";
 			</div>
 		</div><!-- /container -->
 	</body>
-</html><?php ?>
+</html>
