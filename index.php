@@ -1,6 +1,7 @@
 <?php
 
 include_once "wp_codex_links.php";
+include_once "rss.php";
 
 ?>
 <!DOCTYPE html>
@@ -727,7 +728,12 @@ include_once "wp_codex_links.php";
 				<br /><br />
 				Icons are the lovely <a href="http://genericons.com">Genericons</a>.
 
-				<p class="icon-alert">10 Aug 2015: Add singular.php, corrected home.php -> index.php.</p>
+				<div class="update">
+					<h4>Latest Update:</h4>
+					<p>
+					<?php echo get_latest_update(); ?>
+					</p>
+				</div>
 
 				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://wphierarchy.com" data-text="the WordPress template hierarchy, a mini resource by @marktimemedia and @ramiabraham" data-count="none" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
