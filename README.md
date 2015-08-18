@@ -1,19 +1,20 @@
-WordPress template hierarchy mini resource
-==========================================
+Mapa de recursos de la jerarquía  de plantillas de WordPress
+============================================================
 
-##Located at: http://wphierarchy.com
+##Rama original en: http://wphierarchy.com
 
-###Credit and Contributions:
+###Créditos y colaboraciones:
 
-- Michelle Schulp ( original design, http://marktimemedia.com/redesigning-the-template-hierarchy/ )
-- Rami Abraham ( code, site )
+- Michelle Schulp ( diseño original, http://marktimemedia.com/redesigning-the-template-hierarchy/ )
+- Rami Abraham ( código, sitio )
 - Chip Bennett ( OG WP Template Hierarchy visualization, http://www.chipbennett.net/themes/template-hierarchy/ )
-- Genericons.com ( icons, http://genericons.com )
+- Genericons.com ( iconos, http://genericons.com )
 - tnorthcutt ( Codex URL patch )
+- Fernando Tellado (es_ES branch)
 
 ####To-do:
 
-- [x] ~~Add links to the Codex for each item~~
-- [ ] Add example loops and/or semantic data
-- [x] ~~Add color-coded legend below header~~
-- [ ] Add WP load interactive site
+- [x] ~~Añadir enlaces al Codex para cada elemento~~
+- [ ] Añadir loops y/o datos semánticos de ejemplo
+- [x] ~~Añadir leyenda por colores bajo la cabecera~~
+- [ ] Añadir sitio interactivo de carga de WP
