@@ -29,7 +29,7 @@ include_once "rss.php";
 				<span class="right"><a class="wphierarchy-icon" href="https://github.com/ramiabraham/wphierarchy"><span class="hierarchy-name icon-github">Fork / Informar de un error</span></a></span>
 			</div>
 			<header>
-			<h3>the</h3>
+			<h3>la</h3>
 				<hr />
 					<div class="wph-header">
 					  <h1><?php echo _( 'Jerarquía de plantillas de WordPress' ); ?></h1>
@@ -673,7 +673,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name"><?php echo _( 'Paged' ) . ':' . _( 'true' ); ?> paged.php</span>
+								<span class="hierarchy-name"><?php echo _( 'Paginado' ) . ':' . _( 'true' ); ?> paged.php</span>
 							</a>
 						</li>
 
@@ -682,7 +682,7 @@ include_once "rss.php";
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>
 								</span>
-								<span class="hierarchy-name"><?php echo _( 'Paged' ) . ':' . _( 'false' ); ?></span>
+								<span class="hierarchy-name"><?php echo _( 'Paginado' ) . ':' . _( 'false' ); ?></span>
 							</a>
 						</li>
 
@@ -719,22 +719,22 @@ include_once "rss.php";
 				</nav>
 
 				<div class="creds">
-				<h2><?php echo _('A Quaint and Helpful Thing'); ?></h2>
+				<h2><?php echo _('Con ayuda es mejor'); ?></h2>
 				<hr/>
-				<?php echo _( 'Code by' ); ?> <a href="http://twitter.com/ramiabraham">Rami Abraham</a>,
-				<?php echo _( 'Design by' ); ?> <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
-				<?php echo _('Japanese translation by'); ?> <a href="https://github.com/atachibana">Akira Tachibana</a>
-				<?php echo _( 'Icons are the lovely' ); ?> <a href="http://genericons.com">Genericons</a>.
+				<?php echo _( 'Código por' ); ?> <a href="http://twitter.com/ramiabraham">Rami Abraham</a>,
+				<?php echo _( 'Diseño de' ); ?> <a href="http://twitter.com/marktimemedia">Michelle Schulp</a>.
+				<?php echo _('En japonés por'); ?> <a href="https://github.com/atachibana">Akira Tachibana</a>
+				<?php echo _( 'Iconos de' ); ?> <a href="http://genericons.com">Genericons</a>.
 <?php echo _( 'En español por' ); ?> <a href="http://twitter.com/fernandot">Fernando Tellado</a>
 
 				<div class="update">
-					<h4><?php echo _( 'Latest Update' ); ?>:</h4>
+					<h4><?php echo _( 'Actualizaciones' ); ?>:</h4>
 					<p>
 					<?php echo get_latest_update(); ?>
 					</p>
 				</div>
 
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://github.com/WordPressES/jerarquiaWP" data-text="<?php echo _( 'Jerarquía de plantillas de WordPress'); ?>, mapa visual por @marktimemedia @ramiabraham y @fernandot" data-count="none" data-dnt="true">Tweet</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://ayudawp.com/jerarquiawp" data-text="<?php echo _( 'Jerarquía de plantillas de WordPress'); ?>, mapa visual por @marktimemedia @ramiabraham y @fernandot" data-count="none" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 				</div>
