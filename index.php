@@ -10,8 +10,8 @@ include_once "rss.php";
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title><?php echo _( 'The WordPress Template Hierarchy - a visualization resource' ); ?></title>
-		<meta name="description" content="<?php echo _( 'The WordPress Template Hierarchy' ); ?>" />
+		<title><?php echo _('The WordPress Template Hierarchy - a visualization resource'); ?></title>
+		<meta name="description" content="<?php echo _('The WordPress Template Hierarchy'); ?>" />
 		<meta name="keywords" content="wordpress, hierarchy" />
 		<meta name="author" content="Rami Abraham" />
 		<link rel="shortcut icon" href="favicon.ico">
@@ -391,6 +391,16 @@ include_once "rss.php";
 							</a>
 						</li>
 
+						<li class="wp-orange single-posttype-postname">
+							<a href="<?php echo $wp_codex_links['single_posttype_postname']; ?>">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-post"></i>
+								</span>
+								<span class="hierarchy-name">single-<span class="highlight">$posttype-$postname.php</span></span>
+								<span class="version-note">(v 4.4+)</span>
+							</a>
+						</li>
+
 						<li class="wp-grey">
 							<a href="<?php echo $wp_codex_links['custom_template']; ?>">
 								<span class="icon">
@@ -400,7 +410,7 @@ include_once "rss.php";
 							</a>
 						</li>
 
-						<li class="wp-grey">
+						<li class="wp-grey default-template">
 							<a href="<?php echo $wp_codex_links['default_template']; ?>">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-page"></i>

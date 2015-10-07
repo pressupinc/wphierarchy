@@ -49,6 +49,7 @@ $wp_codex_links = array(
 						'tag' 						=> 'http://codex.wordpress.org/Tag_Templates',
 						'attachment' 				=> 'http://codex.wordpress.org/Using_Image_and_File_Attachments#Usage_in_Themes',
 						'single_posttype' 			=> 'http://codex.wordpress.org/Post_Type_Templates',
+						'single_posttype_postname' 	=> 'https://core.trac.wordpress.org/changeset/34800',
 						'single_post' 				=> 'http://codex.wordpress.org/Post_Type_Templates',
 						'page_id' 					=> 'http://codex.wordpress.org/Page_Templates#Specialized_Page_Template',
 						'archive' 					=> 'http://codex.wordpress.org/Creating_an_Archive_Index#The_Archives_Page',

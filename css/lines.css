@@ -195,7 +195,7 @@ border-bottom-left-radius: 12px;
 .elbowboth-custom-to-page-slug {
 	margin-left:483px;
 	margin-top: 156px;
-	height: 60px;
+	height: 72px;
 	width: 146px;
 	border-right: 0;
 	-webkit-border-bottom-right-radius: 0;
@@ -214,13 +214,13 @@ border-bottom-left-radius: 12px;
 	height: 64px;
 	width: 1px;
 	margin-left: 1016px;
-	
+
 }
 
 .elbowboth-page-template-to-page {
 	margin-left:308px;
 	margin-top: 188px;
-	height: 28px;
+	height: 40px;
 	width: 476px;
 }
 
@@ -316,15 +316,16 @@ border-top-right-radius: 0;
 	height: 56px;
 }
 
-.site-front-page {margin-left:38px;
+.site-front-page {
+	margin-left:38px;
 	height: 120px;
 	width: 220px;
 	margin-top: 174px;
 	border-bottom: 3px solid #C8C7C6;
 	border-right: 3px solid #C8C7C6;
 	-webkit-border-bottom-right-radius: 48px;
--moz-border-radius-bottomright: 48px;
-border-bottom-right-radius: 48px;
+	-moz-border-radius-bottomright: 48px;
+	border-bottom-right-radius: 48px;
 }
 
 .singular-elbow-left {
