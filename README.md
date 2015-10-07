@@ -17,3 +17,4 @@ WordPress template hierarchy mini resource
 - [ ] Add example loops and/or semantic data
 - [x] ~~Add color-coded legend below header~~
 - [ ] Add WP load interactive site
+- [ ] Refactor with css that isn't completely insane
