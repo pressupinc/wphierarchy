@@ -25,7 +25,8 @@ include_once "rss.php";
 		<div class="container">
 			<!-- wphierarchy top bar -->
 			<div class="wphierarchy-top clearfix">
-				<a class="wphierarchy-icon" href="http://codex.wordpress.org/Template_Hierarchy"><span class="hierarchy-name icon-wordpress">More on the WordPress Template Hierarchy at the official WordPress Codex</span></a>
+				<a class="wphierarchy-icon" href="http://codex.wordpress.org/Template_Hierarchy"><span class="hierarchy-name icon-wordpress">WordPress Codex</span></a>
+				<a class="wphierarchy-icon" href="https://make.wordpress.org/docs/theme-developer-handbook/"><span class="hierarchy-name icon-wordpress">Theme Developer Handbook</span></a>
 				<span class="right"><a class="wphierarchy-icon" href="https://github.com/ramiabraham/wphierarchy"><span class="hierarchy-name icon-github">Fork / Report an Issue</span></a></span>
 			</div>
 			<header>
