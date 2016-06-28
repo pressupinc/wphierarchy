@@ -158,6 +158,19 @@ jQuery(document).ready(function ($) {
     }
   }
 
+  var canvas = document.body.appendChild(document.createElement('canvas'))
+  var context = canvas.getContext('2d')
+  context.globalCompositeOperation = 'lighter'
+  canvas.width = window.innerWidth
+  canvas.height = window.innerHeight
+  var textStrip = [ 'ィ', 'ゥ', 'ウ', 'ェ', 'エ', 'ォ', 'オ', 'カ', 'ガ', 'キ', 'ギ', 'ク', 'グ', 'ケ', 'ゲ', 'コ', 'ゴ', 'サ', 'ザ', 'シ', 'ジ', 'ス', 'ズ', 'セ', 'ゼ', 'ソ', 'ゾ', 'タ', 'ダ', 'チ', 'ヂ', 'ッ', 'ツ', 'ヅ', 'テ', 'デ', 'ト', 'ド', 'ナ', 'ニ', 'ヌ', 'ネ', 'ノ', 'ハ', 'バ', 'パ', 'ヒ', 'ビ', 'ピ', 'フ', 'ブ', 'プ', 'ヘ', 'ベ', 'ペ', 'ホ', 'ボ', 'ポ', 'マ', 'ミ', 'ム', 'メ', 'モ', 'ャ', 'ヤ', 'ュ', 'ユ', 'ョ', 'ヨ', 'ラ', 'リ', 'ル', 'レ', 'ロ', 'ヮ', 'ワ', 'ヰ', 'ヱ', 'ヲ', 'ン', 'ヴ', 'ヵ', 'ヶ', 'ヷ', 'ヸ', 'ヹ', 'ヺ' ]
+
+  var stripCount = 50
+  var stripX = []
+  var stripY = []
+  var dY = []
+  var stripFontSize = []
+  var greens = [ '#cefbe4', '#81ec72', '#5cd646', '#54d13c', '#4ccc32', '#43c728' ]
   /**
    * It is not the spoon that eh whatever
    *
@@ -178,27 +191,13 @@ jQuery(document).ready(function ($) {
     }
     $('body').toggleClass('neo')
     // show greeting
-    $('body').append('<div class="neo-welcome"></div>')
+    // $('body').append('<div class="neo-welcome"></div>')
     // fade out
-    $('.neo-welcome').toggle('slow')
-
-    var canvas = document.body.appendChild(document.createElement('canvas'))
-    var context = canvas.getContext('2d')
-    context.globalCompositeOperation = 'lighter'
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
+    // $('.neo-welcome').toggle('slow')
 
     var domurl = window.URL || window.webkitURL || window
 
     draw()
-
-    var textStrip = [ 'ィ', 'ゥ', 'ウ', 'ェ', 'エ', 'ォ', 'オ', 'カ', 'ガ', 'キ', 'ギ', 'ク', 'グ', 'ケ', 'ゲ', 'コ', 'ゴ', 'サ', 'ザ', 'シ', 'ジ', 'ス', 'ズ', 'セ', 'ゼ', 'ソ', 'ゾ', 'タ', 'ダ', 'チ', 'ヂ', 'ッ', 'ツ', 'ヅ', 'テ', 'デ', 'ト', 'ド', 'ナ', 'ニ', 'ヌ', 'ネ', 'ノ', 'ハ', 'バ', 'パ', 'ヒ', 'ビ', 'ピ', 'フ', 'ブ', 'プ', 'ヘ', 'ベ', 'ペ', 'ホ', 'ボ', 'ポ', 'マ', 'ミ', 'ム', 'メ', 'モ', 'ャ', 'ヤ', 'ュ', 'ユ', 'ョ', 'ヨ', 'ラ', 'リ', 'ル', 'レ', 'ロ', 'ヮ', 'ワ', 'ヰ', 'ヱ', 'ヲ', 'ン', 'ヴ', 'ヵ', 'ヶ', 'ヷ', 'ヸ', 'ヹ', 'ヺ' ]
-
-    var stripCount = 120
-    var stripX = []
-    var stripY = []
-    var dY = []
-    var stripFontSize = []
 
     for ( var i = 0; i < stripCount; i++) {
       stripX[ i ] = Math.floor(Math.random() * 1265)
@@ -206,64 +205,62 @@ jQuery(document).ready(function ($) {
       dY[ i ] = Math.floor(Math.random() * 7) + 3
       stripFontSize[ i ] = Math.floor(Math.random() * 16) + 8
     }
+  }
 
-    var greens = [ '#cefbe4', '#81ec72', '#5cd646', '#54d13c', '#4ccc32', '#43c728' ]
-
-    function drawStrip (x, y) {
-      for ( var k = 0; k <= 40; k++) {
-        var randChar = textStrip[ Math.floor(Math.random() * textStrip.length) ]
-        if (context.fillText) {
-          switch ( k ) {
-            case 0:
-              context.fillStyle = greens[ 0 ]
-              break
-            case 1:
-              context.fillStyle = greens[ 1 ]
-              break
-            case 3:
-              context.fillStyle = greens[ 2 ]
-              break
-            case 7:
-              context.fillStyle = greens[ 3 ]
-              break
-            case 13:
-              context.fillStyle = greens[ 4 ]
-              break
-            case 17:
-              context.fillStyle = greens[ 5 ]
-              break
-          }
-          context.fillText(randChar, x, y)
+  function drawStrip (x, y) {
+    for ( var k = 0; k <= 40; k++) {
+      var randChar = textStrip[ Math.floor(Math.random() * textStrip.length) ]
+      if (context.fillText) {
+        switch ( k ) {
+          case 0:
+            context.fillStyle = greens[ 0 ]
+            break
+          case 1:
+            context.fillStyle = greens[ 1 ]
+            break
+          case 3:
+            context.fillStyle = greens[ 2 ]
+            break
+          case 7:
+            context.fillStyle = greens[ 3 ]
+            break
+          case 13:
+            context.fillStyle = greens[ 4 ]
+            break
+          case 17:
+            context.fillStyle = greens[ 5 ]
+            break
         }
-        y -= stripFontSize[ k ]
+        context.fillText(randChar, x, y)
       }
+      y -= stripFontSize[ k ]
     }
+  }
 
-    function draw () {
-      // clear the canvas and set the properties
-      context.clearRect(0, 0, canvas.width, canvas.height)
-      context.shadowOffsetX = context.shadowOffsetY = 0
-      context.shadowBlur = 8
-      context.shadowColor = '#94f475'
+  function draw () {
+    // clear the canvas and set the properties
+    context.clearRect(0, 0, canvas.width, canvas.height)
+    context.shadowOffsetX = context.shadowOffsetY = 0
+    context.shadowBlur = 8
+    context.shadowColor = '#94f475'
 
-      for ( var j = 0; j < stripCount; j++) {
-        context.font = stripFontSize[ j ] + 'px MatrixCode'
-        context.textBaseline = 'top'
-        context.textAlign = 'center'
+    for ( var j = 0; j < stripCount; j++) {
+      context.font = stripFontSize[ j ] + 'px MatrixCode'
+      context.textBaseline = 'top'
+      context.textAlign = 'center'
 
-        if (stripY[ j ] > 1358) {
-          stripX[ j ] = Math.floor(Math.random() * canvas.width)
-          stripY[ j ] = -100
-          dY[ j ] = Math.floor(Math.random() * 7) + 3
-          stripFontSize[ j ] = Math.floor(Math.random() * 16) + 8
-          drawStrip(stripX[ j ], stripY[ j ])
-        } else {
-          drawStrip(stripX[ j ], stripY[ j ])
+      if (stripY[ j ] > 1358) {
+        stripX[ j ] = Math.floor(Math.random() * canvas.width)
+        stripY[ j ] = -100
+        dY[ j ] = Math.floor(Math.random() * 7) + 3
+        stripFontSize[ j ] = Math.floor(Math.random() * 16) + 8
+        drawStrip(stripX[ j ], stripY[ j ])
+      } else {
+        drawStrip(stripX[ j ], stripY[ j ])
 
-          stripY[ j ] += dY[ j ]
-        }
-        setTimeout(draw, 30)
+        stripY[ j ] += dY[ j ]
       }
+      setTimeout(draw, 30)
     }
   }
 })
