@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
       var stable = data.stable
       var stable_link = data.stable_link
 
-      $('.version').text('WordPress version ' + stable)
+      $('.version').text('WordPress ' + stable)
       $('.version').attr('href', stable_link)
 
       $('svg g').each(function () {

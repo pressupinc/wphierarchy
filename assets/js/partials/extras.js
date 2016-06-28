@@ -117,9 +117,12 @@ jQuery(document).ready(function ($) {
    * @return {[type]}                  [description]
    */
   function tips () {
-    if (wph_display.tips) {
-      $('body').toggleClass('tips')
+    if (! wph_display.tips) {
+      $('body').removeClass('tips')
+      return
     }
+
+    $('body').toggleClass('tips')
   }
 
   /**
@@ -137,6 +140,8 @@ jQuery(document).ready(function ($) {
       }
       return
     }
+
+    console.log('Still working on this one.')
 
     if (wph_debug) {
       t0 = performance.now()

@@ -31,7 +31,7 @@ require "includes/rss.php";
 				<p>
 					<?= _( 'is current up to:'); ?>
 				</p>
-				<a href="<?= $wp_version; ?>" class="version">WordPress 4.6</a>
+				<a href="<?= $wp_version; ?>" class="version"></a>
 			</legend>
 			<div class="meta">
 				<div class="updates" aria-relevant="text">
@@ -48,7 +48,7 @@ require "includes/rss.php";
 					<span><?= _( 'Design'); ?></span> <a class="ref" href="http://marktimemedia.com/">Michelle Schulp</a>,
 					<span><?= _( 'Code:'); ?></span> <a class="ref" href="https://ramiabraham.com">Rami Abraham</a>,
 					<span><?= _( 'Icons:'); ?></span> <a class="ref" href="https://developer.wordpress.org/resource/dashicons/#admin-collapse">Dashicons</a> by <a class="ref" href="https://choycedesign.com/">Mel Choyce</a>,
-					<span><?= _( 'Japanese translation'); ?>:</span> <a class="ref" href="http://unofficialtokyo.com/">Akira Tachibana</a>, &hearts; and <a href="https://github.com/ramiabraham/wphierarchy/graphs/contributors">contributors</a>.
+					<span><?= _( 'Japanese translation'); ?>:</span> <a class="ref" href="http://unofficialtokyo.com/">Akira Tachibana</a>, &hearts; and <a class="ref" href="https://github.com/ramiabraham/wphierarchy/graphs/contributors">contributors</a>.
 				</p>
 				</div>
 			</div>

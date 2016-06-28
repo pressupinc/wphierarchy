@@ -33,7 +33,7 @@ hr {
 }
 
 h1 {
-	font-size: 2vw;
+	font-size: 2em;
 }
 
 // see grid partial for docs if needed.
@@ -61,7 +61,7 @@ nav {
 
 	legend {
 		color: $wph-white;
-		padding: 20px;
+		padding: 1em;
 		margin: 0;
 		font-weight: 300;
 		background: $wph-blue-dark;
@@ -70,13 +70,13 @@ nav {
 		float: left;
 
 		h3 {
-			font-size: 1.9em;
+			font-size: 1.0em;
 
 			&:before {
 				content: '';
 				height: 32px;
 				width: 32px;
-				display: block;
+				display: none;
 				margin: 0 auto;
 				background: url('assets/svg/wp.svg') no-repeat center center;
 			}
@@ -144,11 +144,18 @@ nav {
 			font-weight: bold;
 		}
 
+		.updates {
+			width: 10%;
+		}
+
+		.credits {
+			width: 36%;
+		}
+
 		.credits,
 		.updates {
 			display: table-cell;
-			width: 36%;
-			padding: .5rem;
+			padding: 0;
 
 			a {
 				color: $wph-gray;
@@ -221,5 +228,27 @@ button {
 
 	button.active {
 		bottom: 110px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	nav legend {
+		h3 {
+			font-size: 1.8em;
+
+			&:before {
+				display: block;
+			}
+		}
+	}
+
+	.updates {
+		display: table-cell;
+	}
+
+	.credits,
+	.updates {
+		padding: .5rem;
 	}
 }

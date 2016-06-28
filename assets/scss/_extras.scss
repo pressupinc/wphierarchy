@@ -39,7 +39,11 @@
 }
 
 body.wapuu {
-
+	background: $wph-black;
+	section * {
+		background: transparent;
+		color: $wph-white;
+	}
 }
 
 body.monochromatic {
