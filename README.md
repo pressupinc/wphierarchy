@@ -84,4 +84,15 @@ The api contains the following data:
 - Some other secret things.
 - Specified license.
 
-### License: GPL
+### Licensing:
+
+Code: MIT License
+
+WordPress template hierarchy design:
+Copyright 2016, Michelle Schulp
+
+Wapuu character, Dashicons:
+GPL, via the Japanese WordPress Community
+
+The WordPress logo is a trademark of the WordPress Foundation. More info:
+http://wordpressfoundation.org/trademark-policy.
