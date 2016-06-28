@@ -1,20 +1,60 @@
-WordPress template hierarchy mini resource
-==========================================
+The WordPress Template Hierarchy
+================================
 
-##Located at: http://wphierarchy.com
+---
 
-###Credit and Contributions:
+### Description
 
-- Michelle Schulp ( original design, http://marktimemedia.com/redesigning-the-template-hierarchy/ )
-- Rami Abraham ( code, site )
-- Chip Bennett ( OG WP Template Hierarchy visualization, http://www.chipbennett.net/themes/template-hierarchy/ )
-- Genericons.com ( icons, http://genericons.com )
-- tnorthcutt ( Codex URL patch )
+wphierarchy.com is a visualization of [the WordPress theme template hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy).
 
-####To-do:
+Official documentation is located at: https://developer.wordpress.org/themes/basics/template-hierarchy.
+
+### https://wphierarchy.com
+
+### Credits
+
+- Michelle Schulp ([design](http://marktimemedia.com/redesigning-the-template-hierarchy))
+- Rami Abraham (code, site)
+- Chip Bennett ([original WordPress Template Hierarchy visualization](http://www.chipbennett.net/themes/template-hierarchy/))
+- Mel Choyce, Dashicons icons ( icons, https://developer.wordpress.org/resource/dashicons/#vault )
+
+### Contributors
+
+- Travis Northcutt
+- Eric Andrew Lewis
+- Akira Tachibana
+
+### Installation
+- Requires `gulp` (`npm install -g gulp`)
+- `git clone https://github.com/ramiabraham/wphierarchy.git`
+- `npm install`
+
+### Contributing
+- Create an issue
+- Fork
+- Eat one cupcake
+- Submit PR
+
+
+### To-do:
 
 - [x] ~~Add links to the Codex for each item~~
-- [ ] Add example loops and/or semantic data
 - [x] ~~Add color-coded legend below header~~
-- [ ] Add WP load interactive site
-- [ ] Refactor with css that isn't completely insane
+- [x] ~~Add json api~~
+- [x] Refactor with css that isn't completely insane (complete rewrite with scss)
+- [ ] Provide an easier means of l11n
+- [ ] Add example loops, template files, and/or semantic data (coming soon; the parameter in the api which will contain this is "tips"). An example of the small, desired strings for tips can be seen in the 4.5 embeds addition.
+- [x] Finish cool secrets (if there are any, which there aren't)
+
+----
+
+### Changelog:
+
+#### v2, June 28, 2016
+
+- Introduce API, located at https://wphierarchy.com/api
+- Complete rewrite of the UI, using a single `svg` element and `<foreignobject>` nodes.
+- Some other secret things.
+- Specified license.
+
+### License: GPL

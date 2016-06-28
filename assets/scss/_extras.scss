@@ -1,0 +1,79 @@
+.canvas {
+	body.neo {
+
+		background: black;
+		color: rgba(13, 239, 48, 1);
+
+		header,
+		main,
+		section,
+		section *,
+		footer,
+		footer * {
+			color: rgba(13, 239, 48, 1);
+		}
+
+		section {
+
+			a {
+				background: black;
+				border: 1px solid rgba(13, 239, 48, 1);
+			}
+		}
+
+		canvas {
+			position: absolute;
+			top: 0;
+		}
+
+		.neo-welcome {
+			display: none;
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			background: black;
+			color: #bada55;
+			text-align: center;
+		}
+	}
+}
+
+body.wapuu {
+
+}
+
+body.monochromatic {
+
+  -webkit-filter:grayscale(100%) !important;
+  -moz-filter:grayscale(100%) !important;
+  filter: gray !important;
+  filter:grayscale(100%) !important;
+
+	a {
+		background: transparent;
+		color: black;
+		border: 1px solid black;
+	}
+
+}
+
+body.tips {
+
+	.tip-trigger {
+		display: inline-block;
+	}
+}
+
+body.dark {
+	background: $wph-black;
+	header {
+		color: $wph-white;
+	}
+}
+
+body.light {
+	background: $wph-white;
+	header {
+		color: $wph-black;
+	}
+}

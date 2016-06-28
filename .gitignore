@@ -11,7 +11,7 @@
 *~
 *.sass-cache
 
-# OS or Editor folders
+# Project files
 .DS_Store
 Thumbs.db
 .cache
@@ -22,19 +22,27 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
-.psd
-# Dreamweaver added files
-_notes
-dwsync.xml
+/node_modules
+/node_modules/*
 
-# Komodo
-*.komodoproject
-.komodotools
+# Deploy-specific
+phploy
+phploy.ini
+ga.html
 
-# Folders to ignore
+# Folders
 .hg
 .svn
 .CVS
 intermediate
 .idea
 cache
+/api/index.php
+/src
+/reference
+
+# Minified and map files
+app.min.js
+vendor.min.js
+app.min.css
+*.map
