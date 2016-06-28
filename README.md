@@ -35,16 +35,43 @@ Official documentation is located at: https://developer.wordpress.org/themes/bas
 - Eat one cupcake
 - Submit PR
 
+### API
+
+WPHierarchy.com has a `rest api` available at [https://wphierarchy.com/api](https://wphierarchy.com/api).
+
+The api contains the following data:
+
+- Stable version (the WordPress version currently supported by wphierarchy.com)
+- Stable link (a link to the relevant WordPress.org release post)
+- An array of objects in `hierarchy_items`, each structured as an array itself:
+
+		```
+		array(
+			"object_id"      => "c1r1",
+			"semantic_id"    => "archive_page",
+			"name"           => "Archive Page",
+			"description"    => "",
+			"link"           => "https://codex.wordpress.org/Creating_an_Archive_Index#The_Archives_Page",
+			"classification" => "archive",
+			"tip"            => "",
+			"since"          => ""
+		)
+		```
+		So if you wish to get the names of all items, your request would be for:
+		`data.hierarchy_items.name`
+
 
 ### To-do:
 
-- [x] ~~Add links to the Codex for each item~~
-- [x] ~~Add color-coded legend below header~~
-- [x] ~~Add json api~~
+- [x] Add links to the Codex for each item
+- [x] Add color-coded legend below header
+- [x] Add json api~~
 - [x] Refactor with css that isn't completely insane (complete rewrite with scss)
 - [ ] Provide an easier means of l11n
-- [ ] Add example loops, template files, and/or semantic data (coming soon; the parameter in the api which will contain this is "tips"). An example of the small, desired strings for tips can be seen in the 4.5 embeds addition.
-- [x] Finish cool secrets (if there are any, which there aren't)
+- [ ] Add contextual highlighting via the `hierarchy_items.classification` variable.
+- [ ] Add example loops, template files, and/or semantic data (coming soon; the parameter in the api which will contain this data is `tips`). An example of the small, desired strings for tips can be seen in the 4.5 embeds addition.
+- [ ] Create an easy-to-use submission process on the site for tips.
+- [ ] Finish cool secrets (if there are any, which there aren't).
 
 ----
 
