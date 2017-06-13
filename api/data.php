@@ -45,16 +45,6 @@ $data = array(
     	),
 		array(
 			"object_id"      => "c1r5",
-			"semantic_id"    => "comments_popup_page",
-			"name"           => "Comments Popup Page",
-			"description"    => "",
-			"link"           => "https://codex.wordpress.org/Function_Reference/comments_popup_script",
-			"classification" => "comments",
-			"tip"            => "",
-			"since"          => ""
-    	),
-		array(
-			"object_id"      => "c1r6",
 			"semantic_id"    => "error_404_page",
 			"name"           => "Error 404 Page",
 			"description"    => "",
@@ -64,7 +54,7 @@ $data = array(
 			"since"          => ""
     	),
 		array(
-			"object_id"      => "c1r7",
+			"object_id"      => "c1r6",
 			"semantic_id"    => "search_result_page",
 			"name"           => "Search Result Page",
 			"description"    => "",
@@ -555,16 +545,6 @@ $data = array(
     	),
 		array(
 			"object_id"      => "c8r5",
-			"semantic_id"    => "comments_popup",
-			"name"           => "comments-popup.php",
-			"description"    => "",
-			"link"           => "https://codex.wordpress.org/Function_Reference/comments_popup_script",
-			"classification" => "comments",
-			"tip"            => "",
-			"since"          => ""
-    	),
-		array(
-			"object_id"      => "c8r6",
 			"semantic_id"    => "404",
 			"name"           => "404.php",
 			"description"    => "",
@@ -574,7 +554,7 @@ $data = array(
 			"since"          => ""
     	),
 		array(
-			"object_id"      => "c8r7",
+			"object_id"      => "c8r6",
 			"semantic_id"    => "search",
 			"name"           => "search.php",
 			"description"    => "",
