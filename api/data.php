@@ -564,26 +564,6 @@ $data = array(
 			"since"          => ""
     	),
 		array(
-			"object_id"      => "c9r1",
-			"semantic_id"    => "paged_true",
-			"name"           => "Paged:true, paged.php",
-			"description"    => "",
-			"link"           => "https://codex.wordpress.org/Function_Reference/is_paged",
-			"classification" => "archive",
-			"tip"            => "",
-			"since"          => ""
-    	),
-		array(
-			"object_id"      => "c9r2",
-			"semantic_id"    => "paged_false",
-			"name"           => "Paged:false",
-			"description"    => "",
-			"link"           => "https://codex.wordpress.org/Function_Reference/is_paged",
-			"classification" => "archive",
-			"tip"            => "",
-			"since"          => ""
-    	),
-		array(
 			"object_id"      => "c9r3",
 			"semantic_id"    => "singular_php",
 			"name"           => "singular.php",

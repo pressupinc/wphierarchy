@@ -157,8 +157,9 @@ require "includes/rss.php";
 		<path class="cls-1" d="M2065.47,748.28H2086c11.06,0,20-6.81,20-15.2v-36.9c0-8.4,9-15.2,20-15.2" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2065.47,816.49H2086c11.06,0,20-6.81,20-15.2V724" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2065.47,251.8H2086c11.06,0,20-6.81,20-15.2v-36.9c0-8.39,9-15.2,20-15.2" transform="translate(-220.95 -157.9)"/>
-		<path class="cls-1" d="M2427.3,270.95h60.28c11.06,0,20-6.81,20-15.2V199.69c0-8.39,9-15.2,20-15.2" transform="translate(-220.95 -157.9)"/>
-		<path class="cls-1" d="M2383.08,270.95H2328.4c-11.06,0-20-6.81-20-15.2V199.69c0-8.39-9-15.2-20-15.2" transform="translate(-220.95 -157.9)"/>
+		<!-- The following path was for paged.php in the top, it now is extended to merge with singular.php (This was easier than redrawing the top part of the curve as a raw-editing SVG n00b -->
+		<path class="cls-1" d="M2427.3,682.85h60.28c11.06,0,20-6.81,20-15.2V199.69c0-8.39,9-15.2,20-15.2" transform="translate(-220.95 -157.9)"/>
+
 		<path class="cls-1" d="M2065.47,320H2086c11.06,0,20-6.81,20-15.2V227.48" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2276.31,682.85H2488c11.07,0,20-6.81,20-15.2V227.48" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2276.31,1007.47H2488c11.07,0,20-6.81,20-15.21V522.63" transform="translate(-220.95 -157.9)"/>
@@ -387,14 +388,6 @@ require "includes/rss.php";
 		  <rect class="rect cls-3 c8r3" x="1923.62" y="700.41" width="141.49" height="84.54" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
-		<g data-position="c9r1">
-		  <rect class="rect cls-5 c9r1" x="2114.76" y="1.06" width="141.43" height="64.07" rx="1.95" ry="1.95"></rect>
-		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
-		</g>
-		<g data-position="c9r2">
-		  <rect class="rect cls-2 c9r2" x="2114.76" y="88.43" width="141.43" height="46.09" rx="1.95" ry="1.95"></rect>
-		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
-		</g>
 		<g data-position="c8r4">
 		  <rect class="rect cls-3 c8r4" x="1923.64" y="830.08" width="141.49" height="204.04" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
@@ -462,8 +455,6 @@ require "includes/rss.php";
 		<path class="cls-6" d="M1852.06,385.91a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.77-5.85h0a5.81,5.81,0,0,1,5.77-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M1852.06,442.1a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.77-5.85h0a5.81,5.81,0,0,1,5.77-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M1852.06,581.15a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.77-5.85h0a5.81,5.81,0,0,1,5.77-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
-		<path class="cls-6" d="M2341.48,185a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
-		<path class="cls-6" d="M2341.48,270.14a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M2544.19,185a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.77-5.85h0a5.81,5.81,0,0,1,5.77-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M2150.37,1385.83a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.78-5.84h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M424.35,681.51a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
