@@ -48,12 +48,12 @@ require "includes/rss.php";
 					<span><?= _( 'Design'); ?></span> <a class="ref" href="http://marktimemedia.com/">Michelle Schulp</a>,
 					<span><?= _( 'Code:'); ?></span> <a class="ref" href="https://ramiabraham.com">Rami Abraham</a>,
 					<span><?= _( 'Icons:'); ?></span> <a class="ref" href="https://developer.wordpress.org/resource/dashicons/#admin-collapse">Dashicons</a> by <a class="ref" href="https://choycedesign.com/">Mel Choyce</a>,
-					<span><?= _( 'Japanese translation'); ?>:</span> <a class="ref" href="http://unofficialtokyo.com/">Akira Tachibana</a>, &hearts; and <a class="ref" href="https://github.com/ramiabraham/wphierarchy/graphs/contributors">contributors</a>.
+					<span><?= _( 'Japanese translation'); ?>:</span> <a class="ref" href="http://unofficialtokyo.com/">Akira Tachibana</a>, &hearts; and <a class="ref" href="https://github.com/pressupinc/wphierarchy/graphs/contributors">contributors</a>.
 				</p>
 				</div>
 			</div>
-			<a class="primary" href="https://github.com/ramiabraham/wphierarchy">Github</a>
-			<a class="primary" href="https://github.com/ramiabraham/wphierarchy/issues/new"><?= _( 'Report an Issue'); ?></a>
+			<a class="primary" href="https://github.com/pressupinc/wphierarchy">Github</a>
+			<a class="primary" href="https://github.com/pressupinc/wphierarchy/issues/new"><?= _( 'Report an Issue'); ?></a>
 			<a class="primary" href="https://developer.wordpress.org/themes/basics/template-hierarchy/"><?= _( 'More on WordPress.org'); ?></a>
 			<a class="extras" href="#"><?= _( 'Extras'); ?></a>
 		</nav>
@@ -478,7 +478,7 @@ require "includes/rss.php";
 				<?= get_latest_updates(); ?>
 			</li>
 			<li>
-				<a href="https://twitter.com/share" class="twitter-share-button" data-text="the WordPress Template Hierarchy, by @marktimemedia @ramiabraham" data-size="large" data-dnt="true">Tweet</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-text="the WordPress Template Hierarchy, by @WPShout" data-size="large" data-dnt="true">Tweet</a>
 				<script>
 				! function(d, s, id) {
 					var js, fjs = d.getElementsByTagName(s)[0],
