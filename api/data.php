@@ -285,8 +285,8 @@ $data = array(
     	),
 		array(
 			"object_id"      => "c4r8",
-			"semantic_id"    => "mimetype",
-			"name"           => "\$mimetype.php",
+			"semantic_id"    => "mimetype_subtype",
+			"name"           => "\$mimetype-\$subtype.php",
 			"description"    => "",
 			"link"           => "https://codex.wordpress.org/Function_Reference/get_post_mime_type",
 			"classification" => "attachment",
@@ -375,8 +375,8 @@ $data = array(
     	),
 		array(
 			"object_id"      => "c6r1",
-			"semantic_id"    => "mimetype_subtype",
-			"name"           => "\$mimetype_\$subtype.php",
+			"semantic_id"    => "mimetype",
+			"name"           => "\$mimetype.php",
 			"description"    => "",
 			"link"           => "https://codex.wordpress.org/Function_Reference/get_post_mime_type",
 			"classification" => "attachment",
