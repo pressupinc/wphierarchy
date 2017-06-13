@@ -19,7 +19,7 @@ require "includes/rss.php";
 	<link rel="stylesheet" type="text/css" href="app.min.css">
 	<script src="assets/js/vendor.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="assets/js/app.min.js" type="text/javascript" charset="utf-8" defer></script>
-	<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -57,7 +57,8 @@ require "includes/rss.php";
 			<a class="primary" href="https://developer.wordpress.org/themes/basics/template-hierarchy/"><?= _( 'More on WordPress.org'); ?></a>
 			<a class="extras" href="#"><?= _( 'Extras'); ?></a>
 		</nav>
-	  <h1><?= _( 'The WordPress Template Hierarchy' ); ?></h1>
+	  <h1><?= _( 'Visualize the WordPress Template Hierarchy' ); ?></h1>
+	  <h2>with &hearts; from <a href="https://wpshout.com">WPShout</a></h2>
 	</header>
 	<main class="wph-svg">
 	<section class="wph-col wph-col--12-of-12">
