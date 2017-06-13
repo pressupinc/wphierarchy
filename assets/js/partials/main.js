@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
   var is_svg = true
 
   $.ajax({
-    url: 'https://wphierarchy.com/api/',
+    url: 'api/',
     type: 'GET',
     headers: {
       'Content-Type': 'application/json; charset=utf-8'
