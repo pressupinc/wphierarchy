@@ -34,7 +34,7 @@ jQuery(document).ready(function ($) {
           var child = items[ i ].child
           var tip = items[ i ].tip
 
-          // match node data attribute aginst key in array
+          // match node data attribute against key in array
           if ($(this).data('position') === object_id) {
             var rectX = $(this).children('rect').attr('x')
             var rectY = $(this).children('rect').attr('y')
@@ -45,6 +45,10 @@ jQuery(document).ready(function ($) {
             $(this).find('.svgl').text(name)
             $(this).find('.svgl').css('width', rWidth)
             $(this).find('.svgl').css('height', rHeight)
+
+            if (rectY === undefined) {
+              rectY = 1.06;
+            }
 
             $(this).children('foreignobject').attr('x', rectX)
             $(this).children('foreignobject').attr('y', rectY)
