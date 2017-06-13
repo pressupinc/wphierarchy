@@ -63,7 +63,7 @@ require "includes/rss.php";
 	<main class="wph-svg">
 	<section class="wph-col wph-col--12-of-12">
 	<div class="items"></div>
-		<svg id="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2456.15 1351.29" xml:space="preserve">
+		<svg id="light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2456.15 1300" xml:space="preserve">
 		  <defs>
 			<style>
 			  .cls-1 {
@@ -133,7 +133,6 @@ require "includes/rss.php";
 		<line class="cls-1" x1="1905.08" y1="848.07" x2="1922.29" y2="848.07"/>
 		<line class="cls-1" x1="127.47" y1="1106.06" x2="1933.5" y2="1106.06"/>
 		<line class="cls-1" x1="127.47" y1="1227.75" x2="1933.5" y2="1227.75"/>
-		<line class="cls-1" x1="127.47" y1="1324.68" x2="1933.5" y2="1324.68"/>
 		<line class="cls-1" x1="724.7" y1="93.87" x2="1627.15" y2="93.87"/>
 		<line class="cls-1" x1="724.7" y1="161.13" x2="1627.15" y2="161.13"/>
 		<line class="cls-1" x1="724.7" y1="228.01" x2="1627.15" y2="228.01"/>
@@ -165,7 +164,6 @@ require "includes/rss.php";
 		<path class="cls-1" d="M2276.31,1007.47H2488c11.07,0,20-6.81,20-15.21V522.63" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2276.31,1262.08H2488c11.07,0,20-6.81,20-15.21V732.6" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2276.31,1385.83H2488c11.07,0,20-6.81,20-15.21V820.34" transform="translate(-220.95 -157.9)"/>
-		<path class="cls-1" d="M2276.31,1478.71H2488c11.07,0,20-6.81,20-15.2V906.67" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2065.47,389H2086c11.06,0,20-6.81,20-15.21V296.42" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2065.47,445.12H2086c11.06,0,20-6.81,20-15.21V352.59" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-1" d="M2065.47,581.91H2086c11.06,0,20-6.81,20-15.2V412.9" transform="translate(-220.95 -157.9)"/>
@@ -200,16 +198,13 @@ require "includes/rss.php";
 		  <rect class="rect cls-2 c1r6" x="0.89" y="1200.12" width="127.47" height="53.21" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
-		<g data-position="c1r7">
-		  <rect class="rect cls-2 c1r7" x="0.89" y="1298.08" width="127.47" height="53.2" rx="1.95" ry="1.95"></rect>
-		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
-		</g>
 		<g data-position="c8r1">
 		  <rect class="rect cls-3 c8r1" x="1923.62" y="1.06" width="141.49" height="447.97" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
+		<!-- index.php -->
 		<g data-position="c10">
-		  <rect class="rect cls-3 c10 index" x="2317.46" y="1.06" width="138.69" height="1350.23" rx="1.95" ry="1.95"></rect>
+		  <rect class="rect cls-3 c10 index" x="2317.46" y="1.06" width="138.69" height="1280" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
 		<g data-position="c3r1">
@@ -412,10 +407,6 @@ require "includes/rss.php";
 		  <rect class="rect cls-3 c8r6" x="1923.64" y="1200.12" width="141.49" height="53.21" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
-		<g data-position="c8r7">
-		  <rect class="rect cls-3 c8r7" x="1923.64" y="1298.08" width="141.5" height="53.2" rx="1.95" ry="1.95"></rect>
-		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
-		</g>
 		<g data-position="c6r2">
 		  <rect class="rect cls-4 c6r2" x="1344.33" y="564.4" width="227.01" height="53.21" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
@@ -475,7 +466,6 @@ require "includes/rss.php";
 		<path class="cls-6" d="M2341.48,270.14a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M2544.19,185a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.77-5.85h0a5.81,5.81,0,0,1,5.77-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M2150.37,1385.83a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.78-5.84h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
-		<path class="cls-6" d="M2150.37,1482.58a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.78-5.84h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M424.35,681.51a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M424.35,878.32a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M2341.48,682.85a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
