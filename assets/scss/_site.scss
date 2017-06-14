@@ -112,7 +112,7 @@ nav {
 
 	a.primary,
 	a:not(.version) {
-		color: $wph-white;
+		color: $wph-gray-light;
 		float: left;
 		width: 20%;
 		padding: 0.5em;
@@ -141,7 +141,7 @@ nav {
 		&:hover,
 		&:focus {
 			background: $wph-blue-dark;
-			color: $wph-white;
+			color: $wph-gray-light;
 		}
 
 		&:active {
@@ -152,7 +152,7 @@ nav {
 
 	.meta {
 		width: 100%;
-		color: $wph-white;
+		color: $wph-gray-light;
 		padding: 0.5rem 0.5rem 0.3rem 0.5rem;
 		background: $wph-blue;
 		text-align: left;
@@ -180,18 +180,18 @@ nav {
 			padding: 0;
 
 			a {
-				color: $wph-gray;
+				color: $wph-gray-light;
 
 				&:hover,
 				&:focus {
-					color: $wph-white;
+					color: $wph-gray-light;
 				}
 			}
 
 			p {
 				margin-top: .5rem;
 				span {
-					color: $wph-gray;
+					color: $wph-gray-light;
 					font-weight: bold;
 				}
 			}
@@ -201,7 +201,7 @@ nav {
 
 ul li {
 	span {
-		color: $wph-gray;
+		color: $wph-gray-light;
 	}
 }
 
@@ -223,7 +223,7 @@ button {
 	appearance: none;
 	-webkit-appearance: none;
 	background: $wph-blue;
-	color: $wph-white;
+	color: $wph-gray-light;
 	border: 0;
 	font-size: 1.3em;
 	-webkit-transition: all 0.3s ease;
@@ -237,7 +237,7 @@ button {
 
 .version {
 	font-size: 1.3em;
-	color: $wph-white;
+	color: $wph-gray-light;
 }
 
 @media screen and (max-width: 55em){
