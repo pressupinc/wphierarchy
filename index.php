@@ -45,7 +45,8 @@ require "includes/rss.php";
 				<h4><?= _( 'Credits:'); ?></h4>
 				<hr />
 				<p>
-					<span><?= _( 'Design'); ?></span> <a class="ref" href="http://marktimemedia.com/">Michelle Schulp</a>,
+					<span><?= _( 'Maintenance:'); ?></span> <a class="ref" href="http://davidbhayes.com/">David Hayes</a>,
+					<span><?= _( 'Design:'); ?></span> <a class="ref" href="http://marktimemedia.com/">Michelle Schulp</a>,
 					<span><?= _( 'Code:'); ?></span> <a class="ref" href="https://ramiabraham.com">Rami Abraham</a>,
 					<span><?= _( 'Icons:'); ?></span> <a class="ref" href="https://developer.wordpress.org/resource/dashicons/#admin-collapse">Dashicons</a> by <a class="ref" href="https://choycedesign.com/">Mel Choyce</a>,
 					<span><?= _( 'Japanese translation'); ?>:</span> <a class="ref" href="http://unofficialtokyo.com/">Akira Tachibana</a>, &hearts; and <a class="ref" href="https://github.com/pressupinc/wphierarchy/graphs/contributors">contributors</a>.
