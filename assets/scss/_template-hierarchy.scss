@@ -75,7 +75,7 @@ canvas {
 			}
 		}
 
-		&:after {
+		&:not(:first-child):not(:last-child):after {
 			content: '';
 			background: url('assets/svg/arrow-right.svg') no-repeat center center;
 			background-size: contain;
