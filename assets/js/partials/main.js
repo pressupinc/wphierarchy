@@ -36,24 +36,35 @@ jQuery(document).ready(function ($) {
 
           // match node data attribute against key in array
           if ($(this).data('position') === object_id) {
+            var $rect = $(this).children('rect');
             var rectX = $(this).children('rect').attr('x')
             var rectY = $(this).children('rect').attr('y')
             var rHeight = $(this).children('rect').attr('height')
             var rWidth = $(this).children('rect').attr('width')
             $(this).find('.svgl').attr('href', link)
             $(this).find('.svgl').attr('tip', tip)
+
+            if (name.length > 21) {
+              name = name.replace('-', '- ');
+            }
+
             $(this).find('.svgl').text(name)
             $(this).find('.svgl').css('width', rWidth)
             $(this).find('.svgl').css('height', rHeight)
 
-            if (rectY === undefined) {
-              rectY = 1.06;
+            console.log($rect, rectX, rectY, rWidth, rHeight);
+            if (rectX === undefined) {
+              rectX = 1;
             }
+            if (rectY === undefined) {
+              rectY = 1;
+            }
+            console.log('Now', rectX, rectY);
 
-            $(this).children('foreignobject').attr('x', rectX)
+            $(this).children('foreignobject').attr('x', rectX+1)
             $(this).children('foreignobject').attr('y', rectY)
             $(this).children('foreignobject').attr('height', rHeight)
-            $(this).children('foreignobject').attr('width', rWidth)
+            $(this).children('foreignobject').attr('width', rWidth-3)
           }
         }
       })
