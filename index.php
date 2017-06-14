@@ -112,17 +112,6 @@ require "includes/rss.php";
 			  .svgl:focus {
 				background: gray;
 			  }
-
-			  g:nth-child(62) > foreignobject > a,
-			  g:nth-child(63) > foreignobject > a,
-			  g:nth-child(65) > foreignobject > a,
-			  g:nth-child(66) > foreignobject > a {
-			  	margin-top: -25px;
-			  }
-
-			  g:nth-child(54) > foreignobject > a {
-			  	margin-left: -25px;
-			  }
 			</style>
 		  </defs>
 		<rect class="tracer" fill="#ff0000" width="8" height="8" x="-8" y="-8"/>
