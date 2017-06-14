@@ -1,7 +1,7 @@
 <?php
 $data = array(
-		"stable" => "4.5.3",
-		"stable_link" => "https://wordpress.org/news/2016/06/wordpress-4-5-3/",
+		"stable" => "4.8.0",
+		"stable_link" => "https://wordpress.org/news/2017/06/evans/",
 		"hierarchy_items" => array(
 			array(
 			"object_id"      => "c1r1",
