@@ -90,9 +90,7 @@ canvas {
 
 	.embeds-since {
 		background: $wph-blue;
-		font-family: 'Cinzel', serif;
 		color: $wph-white;
-
 		&:after {
 			visibility: hidden;
 			width: 0;
@@ -108,7 +106,7 @@ canvas {
 	color: $wph-gray;
 	text-decoration: none;
 	padding: 0;
-	margin-right: 1rem;
+	margin-right: .1rem;
 	border-radius: 2px;
 }
 

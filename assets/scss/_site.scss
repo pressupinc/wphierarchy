@@ -38,16 +38,23 @@ h1 {
 	font-weight: 900;
 	margin: .2em 0;
 	text-transform: uppercase;
+	color: #1f0c41;
 }
 
 h2 {
 	margin: -.2em 0 0 0;
 	font-size: 1.4em;
-	color: #444;
+	color: #038c7d;
 }
 
 h2 a {
 	color: #ef5223;
+}
+
+.wpshout-brand {
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 // see grid partial for docs if needed.

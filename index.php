@@ -58,7 +58,7 @@ require "includes/rss.php";
 			<a class="extras" href="#"><?= _( 'Extras'); ?></a>
 		</nav>
 	  <h1><?= _( 'Visualize the WordPress Template Hierarchy' ); ?></h1>
-	  <h2>with &hearts; from <a href="https://wpshout.com">WPShout</a></h2>
+	  <h2>with &hearts; from <a class="wpshout-brand" href="https://wpshout.com">WPShout</a></h2>
 	</header>
 	<main class="wph-svg">
 	<section class="wph-col wph-col--12-of-12">
@@ -78,7 +78,7 @@ require "includes/rss.php";
 			  }
 
 			  .cls-3 {
-				fill: #00759c;
+				fill: #1f0c41;
 			  }
 
 			  .cls-4 {
@@ -86,7 +86,7 @@ require "includes/rss.php";
 			  }
 
 			  .cls-5 {
-				fill: #66acc3;
+				fill: #038c7d;
 			  }
 
 			  .cls-6 {
@@ -484,9 +484,8 @@ require "includes/rss.php";
 		</ul>
   	</aside>
 		<section class="embeds">
-			<div class="wph-col wph-col--1-of-12"></div>
 			<div class="wph-col wph-col--1-of-12 embeds-since">
-			  <?= _( 'New in'); ?> <i>4.5</i>
+			  <?= _( 'For oEmbeds:'); ?>
 			</div>
 			<a href="" class="wph-col wph-col--1-of-12" data-tip="" data-position="embed1"></a>
 			<a href="" class="wph-col wph-col--1-of-12" data-tip="" data-position="embed2"></a>
