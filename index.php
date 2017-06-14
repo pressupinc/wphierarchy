@@ -237,6 +237,7 @@ require "includes/rss.php";
 		  <rect class="rect cls-4 c7r8" x="1625.33" y="564.4" width="227.01" height="53.21" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
+		<!-- single-post.php -->
 		<g data-position="c7r9">
 		  <rect class="rect cls-5 c7r9" x="1625.33" y="631.66" width="227.01" height="50.25" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
@@ -345,8 +346,18 @@ require "includes/rss.php";
 		  <rect class="rect cls-2 c4r10" x="777.82" y="747.56" width="233.16" height="36.5" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
+		<!-- $custom.php for ALL post types -->
 		<g data-position="c5r6">
-		  <rect class="rect cls-4 c5r6" x="1065.96" y="700.41" width="227.01" height="36.51" rx="1.95" ry="1.95"></rect>
+		  <rect class="rect cls-4 c7r6" x="1065.96" y="564.4" width="227.01" height="53.21" rx="1.95" ry="1.95"></rect>
+		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
+		</g>
+		<!-- $custom.php for POST post types -->
+		<g data-position="c5r7">
+		  <rect class="rect cls-4 c7r6" x="1065.96" y="631.66" width="227.01" height="53.21" rx="1.95" ry="1.95"></rect>
+		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
+		</g>
+		<g data-position="c5r8">
+		  <rect class="rect cls-4 c7r6" x="1065.96" y="700.41" width="227.01" height="36.51" rx="1.95" ry="1.95"></rect>
 		  <foreignObject width="100" height="30" x="25" y="25"><a class="svgl" href=""></a></foreignObject>
 		</g>
 		<g data-position="c6r3">
@@ -423,6 +434,11 @@ require "includes/rss.php";
 		<path class="cls-6" d="M1852.06,816.49a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.77-5.85h0a5.81,5.81,0,0,1,5.77-5.84h0a5.81,5.81,0,0,1,5.78,5.84h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M1852.06,924.57a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.77-5.84h0a5.81,5.81,0,0,1,5.77-5.84h0a5.81,5.81,0,0,1,5.78,5.84h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M1571,923.71a5.81,5.81,0,0,1-5.78,5.84h0a5.8,5.8,0,0,1-5.77-5.84h0a5.81,5.81,0,0,1,5.77-5.84h0a5.81,5.81,0,0,1,5.78,5.84h0Z" transform="translate(-220.95 -157.9)"/>
+		<!-- dot on CUSTOM post custom.php -->
+		<path class="cls-6" d="M1292.8,748.9a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.78-5.84h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
+		<!-- dot on blog post custom.php -->
+		<path class="cls-6" d="M1292.8,816.49a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.78-5.84h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
+		<!-- dot on page custom.php -->
 		<path class="cls-6" d="M1292.8,876.57a5.81,5.81,0,0,1-5.78,5.84h0a5.81,5.81,0,0,1-5.78-5.84h0a5.81,5.81,0,0,1,5.78-5.85h0a5.81,5.81,0,0,1,5.78,5.85h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M1004.82,876.56a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.84h0a5.81,5.81,0,0,1,5.78,5.84h0Z" transform="translate(-220.95 -157.9)"/>
 		<path class="cls-6" d="M824.36,941.25a5.81,5.81,0,0,1-5.78,5.85h0a5.81,5.81,0,0,1-5.78-5.85h0a5.81,5.81,0,0,1,5.78-5.84h0a5.81,5.81,0,0,1,5.78,5.84h0Z" transform="translate(-220.95 -157.9)"/>

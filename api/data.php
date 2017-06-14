@@ -363,8 +363,28 @@ $data = array(
 			"tip"            => "",
 			"since"          => ""
     	),
-		array(
+    	array(
 			"object_id"      => "c5r6",
+			"semantic_id"    => "custom",
+			"name"           => "If selected: \$custom.php",
+			"description"    => "",
+			"link"           => "https://make.wordpress.org/core/2016/11/03/post-type-templates-in-4-7/",
+			"classification" => "page",
+			"tip"            => "",
+			"since"          => "4.7"
+    	),
+    	array(
+			"object_id"      => "c5r7",
+			"semantic_id"    => "custom",
+			"name"           => "If selected: \$custom.php",
+			"description"    => "",
+			"link"           => "https://make.wordpress.org/core/2016/11/03/post-type-templates-in-4-7/",
+			"classification" => "page",
+			"tip"            => "",
+			"since"          => "4.7"
+    	),
+		array(
+			"object_id"      => "c5r8",
 			"semantic_id"    => "custom",
 			"name"           => "\$custom.php",
 			"description"    => "",
