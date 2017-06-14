@@ -52,14 +52,12 @@ jQuery(document).ready(function ($) {
             $(this).find('.svgl').css('width', rWidth)
             $(this).find('.svgl').css('height', rHeight)
 
-            console.log($rect, rectX, rectY, rWidth, rHeight);
             if (rectX === undefined) {
               rectX = 1;
             }
             if (rectY === undefined) {
               rectY = 1;
             }
-            console.log('Now', rectX, rectY);
 
             $(this).children('foreignobject').attr('x', rectX+1)
             $(this).children('foreignobject').attr('y', rectY)
