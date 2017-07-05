@@ -25,6 +25,18 @@ body {
 			}
 		}
 	}
+	.article {
+		max-width: 720px;
+		font-size: 1.3rem;
+		line-height: 1.5;
+		margin: 0 auto 4rem auto;
+	}
+	.article h1, .article h2 {
+		line-height: 1.1;
+	}
+	iframe {
+		margin-left: 110px;
+	}
 }
 
 hr {

@@ -20,6 +20,9 @@ require "includes/rss.php";
 	<script src="assets/js/vendor.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="assets/js/app.min.js" type="text/javascript" charset="utf-8" defer></script>
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900" rel="stylesheet">
+	<?php if (file_exists('private/header.html')) {
+			include('private/header.html');
+		} ?>
 </head>
 <body>
 	<header>
@@ -518,6 +521,11 @@ require "includes/rss.php";
 			<legend class="page"><?= _( 'Page Type'); ?></legend>
 		</fieldset>
 	</footer>
+	<div class="article">
+	<?php if (file_exists('private/article.html')) {
+		include('private/article.html');
+	}?>
+	</div>
 </body>
 
 </html>
