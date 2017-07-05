@@ -111,6 +111,7 @@ require "includes/rss.php";
 				padding-top: .5rem;
 				vertical-align: middle;
 				vertical-align: -webkit-baseline-middle;
+				line-height: .85;
 			  }
 			  .svgl:hover,
 			  .svgl:focus {
