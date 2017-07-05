@@ -13,16 +13,11 @@ Official documentation is located at: https://developer.wordpress.org/themes/bas
 
 ### Credits
 
+- David Hayes (site, on-going maintenance)
 - Michelle Schulp ([design](http://marktimemedia.com/redesigning-the-template-hierarchy))
-- Rami Abraham (code, site)
+- Rami Abraham (original code, site)
 - Chip Bennett ([original WordPress Template Hierarchy visualization](http://www.chipbennett.net/themes/template-hierarchy/))
 - Mel Choyce, Dashicons icons ( icons, https://developer.wordpress.org/resource/dashicons/#vault )
-
-### Contributors
-
-- Travis Northcutt
-- Eric Andrew Lewis
-- Akira Tachibana
 
 ### Installation
 - Requires `gulp` (`npm install -g gulp`)
@@ -32,7 +27,6 @@ Official documentation is located at: https://developer.wordpress.org/themes/bas
 ### Contributing
 - Create an issue
 - Fork
-- Eat one cupcake
 - Submit PR
 
 ### API
