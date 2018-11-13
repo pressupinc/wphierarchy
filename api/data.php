@@ -326,7 +326,7 @@ $data = array(
 		array(
 			"object_id"      => "c5r2",
 			"semantic_id"    => "category_id",
-			"name"           => "\$category-\$id.php",
+			"name"           => "category-\$id.php",
 			"description"    => "",
 			"link"           => "https://codex.wordpress.org/Category_Templates",
 			"classification" => "category",
